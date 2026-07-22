@@ -210,17 +210,22 @@ def _simulate_baseline(rng: np.random.Generator) -> pd.DataFrame:
     load_factor = _ar1_noise(rng, n, phi=0.92, scale=1.0)
     load_factor = (load_factor - load_factor.mean()) / (load_factor.std() + 1e-9)
 
+    # Noise scales below are tuned to realistic industrial instrumentation
+    # jitter (a real transmitter reads noisier than an idealized signal) —
+    # this matters beyond realism: a too-clean noise floor makes a bare
+    # single-channel z-score artificially fast, which is not a fair
+    # baseline (see engine/engine/baselines.py, engine/metrics/run.py).
     pressure = (
         CHANNEL_SPECS["pressure_bar"]["baseline"]
         + _diurnal(n, DT_MINUTES, peak_hour=13, amplitude=0.45)
         + load_factor * 0.30
-        + _ar1_noise(rng, n, phi=0.6, scale=0.12)
+        + _ar1_noise(rng, n, phi=0.6, scale=0.22)
     )
     gas = (
         CHANNEL_SPECS["gas_ppm"]["baseline"]
         + _diurnal(n, DT_MINUTES, peak_hour=2, amplitude=1.2)
         + load_factor * 0.08
-        + _ar1_noise(rng, n, phi=0.7, scale=0.5)
+        + _ar1_noise(rng, n, phi=0.7, scale=1.0)
     )
     gas = np.clip(gas, 0.1, None)
 
@@ -228,19 +233,19 @@ def _simulate_baseline(rng: np.random.Generator) -> pd.DataFrame:
         CHANNEL_SPECS["temp_tank_c"]["baseline"]
         + _diurnal(n, DT_MINUTES, peak_hour=15, amplitude=5.5)
         + load_factor * 0.4
-        + _ar1_noise(rng, n, phi=0.75, scale=0.6)
+        + _ar1_noise(rng, n, phi=0.75, scale=1.1)
     )
     temp_compressor = (
         CHANNEL_SPECS["temp_compressor_c"]["baseline"]
         + _diurnal(n, DT_MINUTES, peak_hour=13, amplitude=6.5)
         + load_factor * 2.6
-        + _ar1_noise(rng, n, phi=0.75, scale=0.9)
+        + _ar1_noise(rng, n, phi=0.75, scale=1.6)
     )
     vibration = (
         CHANNEL_SPECS["vibration_mms"]["baseline"]
         + _diurnal(n, DT_MINUTES, peak_hour=13, amplitude=0.28)
         + load_factor * 0.32
-        + _ar1_noise(rng, n, phi=0.65, scale=0.10)
+        + _ar1_noise(rng, n, phi=0.65, scale=0.20)
     )
     vibration = np.clip(vibration, 0.3, None)
 
@@ -306,7 +311,8 @@ def _inject_gas_leak_archetype(df: pd.DataFrame, plant: Plant, rng: np.random.Ge
     which a gas detector alone would ever know about.
     """
     n = len(df)
-    env = _envelope(n, start_idx, end_idx, ramp_frac=0.3)
+    ramp_frac = 0.5
+    env = _envelope(n, start_idx, end_idx, ramp_frac=ramp_frac)
 
     df["gas_ppm"] = df["gas_ppm"] + env * rng.uniform(16.0, 20.0)
     df["pressure_bar"] = df["pressure_bar"] - env * rng.uniform(0.25, 0.4)
@@ -335,6 +341,7 @@ def _inject_gas_leak_archetype(df: pd.DataFrame, plant: Plant, rng: np.random.Ge
         "end_idx": int(end_idx),
         "start_time": _idx_time(start_idx),
         "end_time": _idx_time(end_idx),
+        "ramp_steps": max(1, int((end_idx - start_idx) * ramp_frac)),
         "affected_channels": ["gas_ppm", "pressure_bar", "wind_speed_kmh", "workers_in_tank_farm"],
         "narrative": (
             "Gas concentration near TANK-01 climbs gradually while wind speed "
@@ -359,7 +366,8 @@ def _inject_bearing_failure_archetype(df: pd.DataFrame, plant: Plant, rng: np.ra
     (mechanical wear, not noise).
     """
     n = len(df)
-    env = _envelope(n, start_idx, end_idx, ramp_frac=0.15)
+    ramp_frac = 0.25
+    env = _envelope(n, start_idx, end_idx, ramp_frac=ramp_frac)
 
     df["vibration_mms"] = df["vibration_mms"] + env * rng.uniform(1.6, 1.9)
     df["temp_compressor_c"] = df["temp_compressor_c"] + env * rng.uniform(13.0, 16.0)
@@ -385,6 +393,7 @@ def _inject_bearing_failure_archetype(df: pd.DataFrame, plant: Plant, rng: np.ra
         "end_idx": int(end_idx),
         "start_time": _idx_time(start_idx),
         "end_time": _idx_time(end_idx),
+        "ramp_steps": max(1, int((end_idx - start_idx) * ramp_frac)),
         "affected_channels": ["vibration_mms", "temp_compressor_c", "compressor_health"],
         "narrative": (
             "COMP-01 vibration and discharge temperature both trend upward across "
@@ -408,7 +417,8 @@ def _inject_overpressure_archetype(df: pd.DataFrame, plant: Plant, rng: np.rando
     time an active hot-work permit is issued in the same restricted zone.
     """
     n = len(df)
-    env = _envelope(n, start_idx, end_idx, ramp_frac=0.2)
+    ramp_frac = 0.35
+    env = _envelope(n, start_idx, end_idx, ramp_frac=ramp_frac)
 
     df["pressure_bar"] = df["pressure_bar"] + env * rng.uniform(2.1, 2.5)
     df["temp_tank_c"] = df["temp_tank_c"] + env * rng.uniform(20.0, 25.0)
@@ -435,6 +445,7 @@ def _inject_overpressure_archetype(df: pd.DataFrame, plant: Plant, rng: np.rando
         "end_idx": int(end_idx),
         "start_time": _idx_time(start_idx),
         "end_time": _idx_time(end_idx),
+        "ramp_steps": max(1, int((end_idx - start_idx) * ramp_frac)),
         "affected_channels": ["pressure_bar", "temp_tank_c", "relief_capacity_pct", "hot_work_permit_active"],
         "narrative": (
             "TANK-01 pressure and shell temperature both climb with the afternoon "

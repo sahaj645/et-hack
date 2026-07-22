@@ -1,0 +1,345 @@
+{
+  "meta": {
+    "eval_seeds": [
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    "quiet_eval_seeds": [
+      3000,
+      3001,
+      3002,
+      3003,
+      3004,
+      3005,
+      3006,
+      3007,
+      3008,
+      3009,
+      3010,
+      3011,
+      3012,
+      3013,
+      3014,
+      3015,
+      3016,
+      3017,
+      3018,
+      3019
+    ],
+    "calibration_seeds": [
+      1000,
+      1001,
+      1002,
+      1003,
+      1004,
+      1005,
+      1006,
+      1007,
+      1008,
+      1009,
+      1010,
+      1011,
+      1012,
+      1013,
+      1014,
+      1015,
+      1016,
+      1017,
+      1018,
+      1019,
+      1020,
+      1021,
+      1022,
+      1023,
+      1024,
+      1025,
+      1026,
+      1027,
+      1028,
+      1029
+    ],
+    "debounce_gap_steps": 15,
+    "lead_time_methodology": "Lead time is measured against an extrapolated single-channel alarm time: the observed ramp-up slope of each archetype's primary hazard channel(s) is linearly projected forward to the point a conventional threshold would cross if the trend continued unaddressed. Computed directly from simulated data, not a separate simulation mode."
+  },
+  "detection": {
+    "overall": {
+      "n_instances": 60,
+      "hero": {
+        "detected_pct": 100.0,
+        "median_lead_min": 119.4,
+        "lead_samples": 60
+      },
+      "baseline_a": {
+        "detected_pct": 0.0,
+        "median_lead_min": null,
+        "lead_samples": 0
+      },
+      "baseline_b": {
+        "detected_pct": 100.0,
+        "median_lead_min": 94.9,
+        "lead_samples": 60
+      }
+    },
+    "per_archetype": {
+      "bearing_failure_overdue_maintenance": {
+        "n_instances": 20,
+        "hero": {
+          "detected_pct": 100.0,
+          "median_lead_min": 121.7,
+          "lead_samples": 20
+        },
+        "baseline_a": {
+          "detected_pct": 0.0,
+          "median_lead_min": null,
+          "lead_samples": 0
+        },
+        "baseline_b": {
+          "detected_pct": 100.0,
+          "median_lead_min": 94.9,
+          "lead_samples": 20
+        }
+      },
+      "gas_leak_ventilation_failure": {
+        "n_instances": 20,
+        "hero": {
+          "detected_pct": 100.0,
+          "median_lead_min": 135.7,
+          "lead_samples": 20
+        },
+        "baseline_a": {
+          "detected_pct": 0.0,
+          "median_lead_min": null,
+          "lead_samples": 0
+        },
+        "baseline_b": {
+          "detected_pct": 100.0,
+          "median_lead_min": 116.7,
+          "lead_samples": 20
+        }
+      },
+      "overpressure_degraded_relief": {
+        "n_instances": 20,
+        "hero": {
+          "detected_pct": 100.0,
+          "median_lead_min": 55.7,
+          "lead_samples": 20
+        },
+        "baseline_a": {
+          "detected_pct": 0.0,
+          "median_lead_min": null,
+          "lead_samples": 0
+        },
+        "baseline_b": {
+          "detected_pct": 100.0,
+          "median_lead_min": 41.8,
+          "lead_samples": 20
+        }
+      }
+    }
+  },
+  "false_alarms_per_day": {
+    "hero": {
+      "mean_false_alarms_per_day": 1.7,
+      "days_evaluated": 20
+    },
+    "baseline_a": {
+      "mean_false_alarms_per_day": 0.0,
+      "days_evaluated": 20
+    },
+    "baseline_b": {
+      "mean_false_alarms_per_day": 8.3,
+      "days_evaluated": 20
+    }
+  },
+  "false_negative_reduction_pct_vs_baseline_a": 100.0,
+  "sample_incident": {
+    "event_id": "evt-gas-leak-01",
+    "title": "Slow Gas Leak Masked by Ventilation Failure",
+    "window": {
+      "start_idx": 60,
+      "end_idx": 120
+    },
+    "operating_threshold": 97.23,
+    "peak_idx": 104,
+    "timeline": [
+      {
+        "idx": 60,
+        "time": "2026-07-22T02:00:00",
+        "risk": 89.8,
+        "confidence": 0.17
+      },
+      {
+        "idx": 63,
+        "time": "2026-07-22T02:06:00",
+        "risk": 94.1,
+        "confidence": 0.25
+      },
+      {
+        "idx": 66,
+        "time": "2026-07-22T02:12:00",
+        "risk": 95.5,
+        "confidence": 0.17
+      },
+      {
+        "idx": 69,
+        "time": "2026-07-22T02:18:00",
+        "risk": 99.0,
+        "confidence": 0.25
+      },
+      {
+        "idx": 72,
+        "time": "2026-07-22T02:24:00",
+        "risk": 99.9,
+        "confidence": 0.66
+      },
+      {
+        "idx": 75,
+        "time": "2026-07-22T02:30:00",
+        "risk": 99.8,
+        "confidence": 0.54
+      },
+      {
+        "idx": 78,
+        "time": "2026-07-22T02:36:00",
+        "risk": 99.1,
+        "confidence": 0.25
+      },
+      {
+        "idx": 81,
+        "time": "2026-07-22T02:42:00",
+        "risk": 99.6,
+        "confidence": 0.44
+      },
+      {
+        "idx": 84,
+        "time": "2026-07-22T02:48:00",
+        "risk": 99.7,
+        "confidence": 0.61
+      },
+      {
+        "idx": 87,
+        "time": "2026-07-22T02:54:00",
+        "risk": 99.7,
+        "confidence": 0.57
+      },
+      {
+        "idx": 90,
+        "time": "2026-07-22T03:00:00",
+        "risk": 99.7,
+        "confidence": 0.56
+      },
+      {
+        "idx": 93,
+        "time": "2026-07-22T03:06:00",
+        "risk": 99.7,
+        "confidence": 0.57
+      },
+      {
+        "idx": 96,
+        "time": "2026-07-22T03:12:00",
+        "risk": 99.9,
+        "confidence": 0.78
+      },
+      {
+        "idx": 99,
+        "time": "2026-07-22T03:18:00",
+        "risk": 99.7,
+        "confidence": 0.56
+      },
+      {
+        "idx": 102,
+        "time": "2026-07-22T03:24:00",
+        "risk": 99.8,
+        "confidence": 0.69
+      },
+      {
+        "idx": 105,
+        "time": "2026-07-22T03:30:00",
+        "risk": 99.9,
+        "confidence": 0.79
+      },
+      {
+        "idx": 108,
+        "time": "2026-07-22T03:36:00",
+        "risk": 99.5,
+        "confidence": 0.38
+      },
+      {
+        "idx": 111,
+        "time": "2026-07-22T03:42:00",
+        "risk": 99.9,
+        "confidence": 0.76
+      },
+      {
+        "idx": 114,
+        "time": "2026-07-22T03:48:00",
+        "risk": 95.6,
+        "confidence": 0.17
+      },
+      {
+        "idx": 117,
+        "time": "2026-07-22T03:54:00",
+        "risk": 95.7,
+        "confidence": 0.17
+      },
+      {
+        "idx": 120,
+        "time": "2026-07-22T04:00:00",
+        "risk": 97.8,
+        "confidence": 0.17
+      }
+    ],
+    "contributors_at_peak": [
+      {
+        "agent": "sensor",
+        "normalized_score": 2.917,
+        "contribution_pct": 54.3
+      },
+      {
+        "agent": "weather",
+        "normalized_score": 1.307,
+        "contribution_pct": 24.3
+      },
+      {
+        "agent": "equipment",
+        "normalized_score": 0.818,
+        "contribution_pct": 15.2
+      },
+      {
+        "agent": "worker",
+        "normalized_score": 0.333,
+        "contribution_pct": 6.2
+      },
+      {
+        "agent": "permit",
+        "normalized_score": 0.0,
+        "contribution_pct": 0.0
+      },
+      {
+        "agent": "maintenance",
+        "normalized_score": 0.0,
+        "contribution_pct": 0.0
+      }
+    ],
+    "confidence_at_peak": 0.81,
+    "confidence_explanation": "67% of the six agents independently flag something unusual at this instant, and the fused score sits 96% of the way from the alert threshold toward the worst reading seen in 30 days of normal operation."
+  }
+}

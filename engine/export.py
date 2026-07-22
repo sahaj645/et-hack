@@ -1,5 +1,10 @@
 """Run the simulator with a fixed seed and write the deterministic scenario
 to web/public/data/scenario.json for the Next.js control room to render.
+Also republishes engine/metrics/results.json (written by
+`python engine/metrics/run.py`) to web/public/data/metrics.json — export.py
+never computes a metric itself, only repackages the one place metrics are
+actually measured, so the web UI can't ever show a number that didn't come
+from a real evaluation run.
 
 Usage:
     python engine/export.py
@@ -8,6 +13,7 @@ Usage:
 from __future__ import annotations
 
 import json
+import shutil
 from dataclasses import asdict
 from datetime import datetime
 from pathlib import Path
@@ -16,6 +22,8 @@ from simulator import CHANNEL_SPECS, DT_MINUTES, N_POINTS, SEED, generate_scenar
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 OUTPUT_PATH = REPO_ROOT / "web" / "public" / "data" / "scenario.json"
+METRICS_SOURCE_PATH = Path(__file__).resolve().parent / "metrics" / "results.json"
+METRICS_OUTPUT_PATH = REPO_ROOT / "web" / "public" / "data" / "metrics.json"
 
 
 def _json_default(obj):
@@ -67,6 +75,16 @@ def main() -> None:
     print(f"  assets          : {len(payload['plant']['assets'])}")
     print(f"  workers         : {len(payload['plant']['workers'])}")
     print(f"  events          : {len(payload['events'])}")
+
+    if METRICS_SOURCE_PATH.exists():
+        METRICS_OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(METRICS_SOURCE_PATH, METRICS_OUTPUT_PATH)
+        print(f"Wrote {METRICS_OUTPUT_PATH.relative_to(REPO_ROOT)} (copied from {METRICS_SOURCE_PATH.relative_to(REPO_ROOT)})")
+    else:
+        print(
+            f"Skipped metrics.json — {METRICS_SOURCE_PATH.relative_to(REPO_ROOT)} doesn't exist yet. "
+            f"Run `python engine/metrics/run.py` first."
+        )
 
 
 if __name__ == "__main__":

@@ -10,16 +10,25 @@ catches that. PlantPulse does.
 Built for ET AI Hackathon 2.0, Problem Statement #1 (Industrial Safety
 Intelligence). See [ARCHITECTURE.md](ARCHITECTURE.md) for the system design.
 
-## Status: Session 1 — engine foundation + simulator
+## Status: Session 2 — fusion engine + baselines + metrics
 
 - [x] `engine/data_model.py` — Assets, Workers, Zones, Permits, Maintenance, Weather
 - [x] `engine/simulator.py` — seeded correlated time-series + 3 compound archetypes
-- [x] `engine/export.py` — writes `web/public/data/scenario.json`
+- [x] `engine/export.py` — writes `web/public/data/scenario.json` + `metrics.json`
 - [x] `engine/preview.py` — sanity-check plots in `engine/_preview/`
+- [x] `engine/agents/{sensor,equipment,permit,maintenance,worker,weather}_agent.py`
+      — six independently-explainable specialist agents
+- [x] `engine/agents/risk_agent.py` — fuses agents + hero model into a 0-100
+      risk score, ranked contributor breakdown, and non-random confidence
+- [x] `engine/engine/{calibration,features,model,baselines,metrics}.py`
+      — 30-day normal-operation calibration, IsolationForest hero model,
+      two conventional baselines, pure metric-calculation functions
+- [x] `engine/metrics/run.py` — hero vs both baselines across 20 seeded
+      days, writes `engine/metrics/results.json`
 
-Not built yet: fusion engine (S2), Next.js control room UI (S3), knowledge
-graph (S4), copilot + SOPs (S5), what-if slider (S6), write-up (S7). The
-`web/` app currently boots to a placeholder page only.
+Not built yet: Next.js control room UI (S3), knowledge graph (S4), copilot
++ SOPs (S5), what-if slider (S6), write-up (S7). The `web/` app currently
+boots to a placeholder page only.
 
 ## Run it — engine
 
