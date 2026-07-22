@@ -1,0 +1,10 @@
+graph LR
+    Worker -->|in| Zone
+    Zone -->|governed_by| Permit
+    Permit -->|held_by| Worker
+    Zone -->|contains| Asset
+    Asset -->|monitored_by| Channel["Sensor Channel"]
+    Asset -->|scheduled_task| MaintenanceTask
+    Valve -->|relieves| Tank
+    Tank -->|feeds| Pipeline
+    Pipeline -->|feeds| Compressor

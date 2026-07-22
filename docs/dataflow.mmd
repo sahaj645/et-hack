@@ -1,0 +1,40 @@
+flowchart LR
+    subgraph ENGINE["Python engine (offline, seeded, deterministic)"]
+        SIM["simulator.py<br/>3 compound archetypes"]
+        AGENTS["6 specialist agents<br/>sensor/equipment/permit/<br/>maintenance/worker/weather"]
+        MODEL["IsolationForest hero model<br/>trained on 30 quiet days only"]
+        FUSION["risk_agent.py<br/>fused 0-100 score"]
+        KG["knowledge_graph.py"]
+        SOP["sop_agent.py + copilot<br/>cause -> SOP -> risk reduction"]
+        REPORT["report_agent.py<br/>PDF incident reports"]
+        METRICS["metrics/run.py<br/>hero vs 2 baselines,<br/>20 seeded eval days"]
+        EXPORT["export.py"]
+        SIM --> AGENTS --> FUSION
+        AGENTS --> MODEL --> FUSION
+        FUSION --> KG --> SOP --> REPORT
+        SIM --> METRICS
+        METRICS --> EXPORT
+        FUSION --> EXPORT
+        KG --> EXPORT
+        SOP --> EXPORT
+        REPORT --> EXPORT
+    end
+
+    EXPORT -->|"writes JSON + PDFs"| JSON["web/public/data/*.json<br/>web/public/reports/*.pdf"]
+
+    subgraph WEB["Next.js control room"]
+        LIVE["Live tab"]
+        DEMO["Demo tab<br/>cinematic replay"]
+        KGTAB["Knowledge tab"]
+    end
+
+    JSON --> LIVE
+    JSON --> DEMO
+    JSON --> KGTAB
+
+    subgraph API["FastAPI (upside only)"]
+        WHATIF["/risk /whatif /copilot"]
+    end
+
+    DEMO -.->|"live slider only,<br/>falls back offline"| WHATIF
+    WHATIF -.-> AGENTS
