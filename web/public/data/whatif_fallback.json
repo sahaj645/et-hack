@@ -1,0 +1,256 @@
+{
+  "index": 65,
+  "baseline": {
+    "index": 65,
+    "risk": 56.77,
+    "confidence": 0.167,
+    "contributors": {
+      "weather": 72.1,
+      "sensor": 27.9,
+      "equipment": 0.0,
+      "permit": 0.0,
+      "maintenance": 0.0,
+      "worker": 0.0
+    }
+  },
+  "grid": [
+    {
+      "ventilation_pct": 70,
+      "delay_maintenance": false,
+      "result": {
+        "index": 65,
+        "risk": 59.21,
+        "confidence": 0.167,
+        "contributors": {
+          "weather": 74.0,
+          "sensor": 26.0,
+          "equipment": 0.0,
+          "permit": 0.0,
+          "maintenance": 0.0,
+          "worker": 0.0
+        }
+      }
+    },
+    {
+      "ventilation_pct": 70,
+      "delay_maintenance": true,
+      "result": {
+        "index": 65,
+        "risk": 71.44,
+        "confidence": 0.274,
+        "contributors": {
+          "equipment": 89.5,
+          "weather": 7.8,
+          "sensor": 2.7,
+          "permit": 0.0,
+          "maintenance": 0.0,
+          "worker": 0.0
+        }
+      }
+    },
+    {
+      "ventilation_pct": 75,
+      "delay_maintenance": false,
+      "result": {
+        "index": 65,
+        "risk": 58.84,
+        "confidence": 0.167,
+        "contributors": {
+          "weather": 73.7,
+          "sensor": 26.3,
+          "equipment": 0.0,
+          "permit": 0.0,
+          "maintenance": 0.0,
+          "worker": 0.0
+        }
+      }
+    },
+    {
+      "ventilation_pct": 75,
+      "delay_maintenance": true,
+      "result": {
+        "index": 65,
+        "risk": 71.44,
+        "confidence": 0.274,
+        "contributors": {
+          "equipment": 89.6,
+          "weather": 7.7,
+          "sensor": 2.7,
+          "permit": 0.0,
+          "maintenance": 0.0,
+          "worker": 0.0
+        }
+      }
+    },
+    {
+      "ventilation_pct": 80,
+      "delay_maintenance": false,
+      "result": {
+        "index": 65,
+        "risk": 58.46,
+        "confidence": 0.167,
+        "contributors": {
+          "weather": 73.4,
+          "sensor": 26.6,
+          "equipment": 0.0,
+          "permit": 0.0,
+          "maintenance": 0.0,
+          "worker": 0.0
+        }
+      }
+    },
+    {
+      "ventilation_pct": 80,
+      "delay_maintenance": true,
+      "result": {
+        "index": 65,
+        "risk": 71.44,
+        "confidence": 0.274,
+        "contributors": {
+          "equipment": 89.7,
+          "weather": 7.5,
+          "sensor": 2.7,
+          "permit": 0.0,
+          "maintenance": 0.0,
+          "worker": 0.0
+        }
+      }
+    },
+    {
+      "ventilation_pct": 85,
+      "delay_maintenance": false,
+      "result": {
+        "index": 65,
+        "risk": 58.06,
+        "confidence": 0.167,
+        "contributors": {
+          "weather": 73.1,
+          "sensor": 26.9,
+          "equipment": 0.0,
+          "permit": 0.0,
+          "maintenance": 0.0,
+          "worker": 0.0
+        }
+      }
+    },
+    {
+      "ventilation_pct": 85,
+      "delay_maintenance": true,
+      "result": {
+        "index": 65,
+        "risk": 71.44,
+        "confidence": 0.274,
+        "contributors": {
+          "equipment": 89.8,
+          "weather": 7.4,
+          "sensor": 2.7,
+          "permit": 0.0,
+          "maintenance": 0.0,
+          "worker": 0.0
+        }
+      }
+    },
+    {
+      "ventilation_pct": 90,
+      "delay_maintenance": false,
+      "result": {
+        "index": 65,
+        "risk": 57.65,
+        "confidence": 0.167,
+        "contributors": {
+          "weather": 72.8,
+          "sensor": 27.2,
+          "equipment": 0.0,
+          "permit": 0.0,
+          "maintenance": 0.0,
+          "worker": 0.0
+        }
+      }
+    },
+    {
+      "ventilation_pct": 90,
+      "delay_maintenance": true,
+      "result": {
+        "index": 65,
+        "risk": 71.44,
+        "confidence": 0.274,
+        "contributors": {
+          "equipment": 89.9,
+          "weather": 7.3,
+          "sensor": 2.7,
+          "permit": 0.0,
+          "maintenance": 0.0,
+          "worker": 0.0
+        }
+      }
+    },
+    {
+      "ventilation_pct": 95,
+      "delay_maintenance": false,
+      "result": {
+        "index": 65,
+        "risk": 57.22,
+        "confidence": 0.167,
+        "contributors": {
+          "weather": 72.4,
+          "sensor": 27.6,
+          "equipment": 0.0,
+          "permit": 0.0,
+          "maintenance": 0.0,
+          "worker": 0.0
+        }
+      }
+    },
+    {
+      "ventilation_pct": 95,
+      "delay_maintenance": true,
+      "result": {
+        "index": 65,
+        "risk": 71.44,
+        "confidence": 0.274,
+        "contributors": {
+          "equipment": 90.0,
+          "weather": 7.2,
+          "sensor": 2.7,
+          "permit": 0.0,
+          "maintenance": 0.0,
+          "worker": 0.0
+        }
+      }
+    },
+    {
+      "ventilation_pct": 100,
+      "delay_maintenance": false,
+      "result": {
+        "index": 65,
+        "risk": 56.77,
+        "confidence": 0.167,
+        "contributors": {
+          "weather": 72.1,
+          "sensor": 27.9,
+          "equipment": 0.0,
+          "permit": 0.0,
+          "maintenance": 0.0,
+          "worker": 0.0
+        }
+      }
+    },
+    {
+      "ventilation_pct": 100,
+      "delay_maintenance": true,
+      "result": {
+        "index": 65,
+        "risk": 71.44,
+        "confidence": 0.274,
+        "contributors": {
+          "equipment": 90.1,
+          "weather": 7.1,
+          "sensor": 2.7,
+          "permit": 0.0,
+          "maintenance": 0.0,
+          "worker": 0.0
+        }
+      }
+    }
+  ]
+}

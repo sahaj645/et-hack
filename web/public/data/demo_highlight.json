@@ -1,0 +1,9 @@
+{
+  "event_id": "evt-gas-leak-01",
+  "hero_detect_idx": 63,
+  "hero_detect_time": "2026-07-22T02:06:00",
+  "reference_idx": 137.36,
+  "reference_time_estimated": "2026-07-22T04:34:00",
+  "lead_time_minutes": 148.7,
+  "methodology": "reference_idx is a linear extrapolation of the observed ramp-up rate of the archetype's primary hazard channel(s), projecting forward to when a conventional single-channel alarm would fire if the trend continued unaddressed -- the same methodology as engine/metrics/run.py. It is not a value actually reached in the recorded (bounded, single-channel-normal) scenario data."
+}

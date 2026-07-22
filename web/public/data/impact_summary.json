@@ -1,0 +1,24 @@
+{
+  "measured": {
+    "archetypes_validated": 3,
+    "detection_rate_pct": 100.0,
+    "median_lead_time_min": 99.8,
+    "false_alarms_per_day_hero": 7.05,
+    "false_alarms_per_day_baseline_b": 8.3,
+    "unsafe_zone_entries_flagged": 20,
+    "eval_seed_count": 20
+  },
+  "assumptions": {
+    "recurrence_per_archetype_per_year": 4,
+    "downtime_hours_per_incident": 4.0,
+    "cost_per_incident_inr": 300000,
+    "basis": "See data/cost_basis.md for full disclosure of every assumption and its rationale."
+  },
+  "derived": {
+    "incidents_per_year_assumed": 12,
+    "near_misses_prevented_per_year": 12,
+    "downtime_avoided_hours_per_year": 48.0,
+    "cost_avoided_inr_per_year": 3600000
+  },
+  "label": "All figures below are simulation outputs (measured count x disclosed assumption), not verified real-world claims. See data/cost_basis.md."
+}

@@ -35,6 +35,15 @@ COPILOT_CACHE_SOURCE_PATH = _ENGINE_DIR / "copilot" / "cache.json"
 REPORTS_OUTPUT_DIR = REPO_ROOT / "web" / "public" / "reports"
 METRICS_SOURCE_PATH = _ENGINE_DIR / "metrics" / "results.json"
 METRICS_OUTPUT_PATH = REPO_ROOT / "web" / "public" / "data" / "metrics.json"
+IMPACT_SUMMARY_OUTPUT_PATH = REPO_ROOT / "web" / "public" / "data" / "impact_summary.json"
+WHATIF_FALLBACK_OUTPUT_PATH = REPO_ROOT / "web" / "public" / "data" / "whatif_fallback.json"
+
+# Mirrors engine/metrics/run.py::EVAL_SEEDS. Kept as a separate literal
+# (not imported) because `metrics.run` and engine/engine/metrics.py share
+# the bare name "metrics" and importing the former from an external
+# caller makes Python's module cache resolve "metrics" to the package,
+# permanently shadowing the calc-library module run.py itself needs.
+IMPACT_EVAL_SEEDS = list(range(2000, 2020))
 
 
 def _json_default(obj):
@@ -136,6 +145,65 @@ def main() -> None:
     risk_size_kb = RISK_TIMELINE_OUTPUT_PATH.stat().st_size / 1024
     print(f"Wrote {RISK_TIMELINE_OUTPUT_PATH.relative_to(REPO_ROOT)} ({risk_size_kb:.1f} KB)")
 
+    print("Computing demo highlight (gas-leak lead-time facts for the cinematic Demo tab)...")
+    import numpy as np
+
+    import risk_agent
+    from metrics import estimate_single_channel_alarm_time, first_detection_in_range
+
+    demo_event = next(e for e in _events if e["archetype"] == "gas_leak_ventilation_failure")
+    demo_alarm_series = risk_agent.alarm_series(df, hero_model=hero_model)
+    demo_reference_idx = estimate_single_channel_alarm_time(df, demo_event, CHANNEL_SPECS)
+    demo_search_end = int(np.ceil(demo_reference_idx))
+    demo_detect_idx = first_detection_in_range(demo_alarm_series, demo_event["start_idx"], demo_search_end)
+    demo_lead_minutes = (demo_reference_idx - demo_detect_idx) * DT_MINUTES
+
+    demo_highlight = {
+        "event_id": demo_event["id"],
+        "hero_detect_idx": demo_detect_idx,
+        "hero_detect_time": df["timestamp"].iloc[demo_detect_idx],
+        "reference_idx": round(demo_reference_idx, 2),
+        "reference_time_estimated": (
+            df["timestamp"].iloc[int(demo_reference_idx)]
+            if demo_reference_idx < len(df)
+            else None
+        ),
+        "lead_time_minutes": round(demo_lead_minutes, 1),
+        "methodology": (
+            "reference_idx is a linear extrapolation of the observed ramp-up rate "
+            "of the archetype's primary hazard channel(s), projecting forward to "
+            "when a conventional single-channel alarm would fire if the trend "
+            "continued unaddressed -- the same methodology as "
+            "engine/metrics/run.py. It is not a value actually reached in the "
+            "recorded (bounded, single-channel-normal) scenario data."
+        ),
+    }
+    DEMO_HIGHLIGHT_OUTPUT_PATH = REPO_ROOT / "web" / "public" / "data" / "demo_highlight.json"
+    with DEMO_HIGHLIGHT_OUTPUT_PATH.open("w", encoding="utf-8") as f:
+        json.dump(demo_highlight, f, indent=2, ensure_ascii=False)
+    print(f"Wrote {DEMO_HIGHLIGHT_OUTPUT_PATH.relative_to(REPO_ROOT)}")
+    print(f"  lead time: {demo_highlight['lead_time_minutes']} min (detect idx {demo_detect_idx} vs projected idx {demo_reference_idx:.1f})")
+
+    print("Precomputing what-if fallback grid (offline backstop for WhatIf.tsx)...")
+    from whatif import DEFAULT_WHATIF_INDEX, score_whatif
+
+    whatif_grid = []
+    for ventilation_pct in (70, 75, 80, 85, 90, 95, 100):
+        for delay_maintenance in (False, True):
+            whatif_grid.append({
+                "ventilation_pct": ventilation_pct,
+                "delay_maintenance": delay_maintenance,
+                "result": score_whatif(df, hero_model, DEFAULT_WHATIF_INDEX, ventilation_pct, delay_maintenance),
+            })
+    whatif_payload = {
+        "index": DEFAULT_WHATIF_INDEX,
+        "baseline": score_whatif(df, hero_model, DEFAULT_WHATIF_INDEX, 100, False),
+        "grid": whatif_grid,
+    }
+    with WHATIF_FALLBACK_OUTPUT_PATH.open("w", encoding="utf-8") as f:
+        json.dump(whatif_payload, f, indent=2, ensure_ascii=False)
+    print(f"Wrote {WHATIF_FALLBACK_OUTPUT_PATH.relative_to(REPO_ROOT)} ({len(whatif_grid)} grid points)")
+
     print("Building plant knowledge graph...")
     from knowledge_graph import export_graph_payload
     _kg_df, kg_plant, kg_events = generate_scenario(seed=SEED)
@@ -202,10 +270,25 @@ def main() -> None:
         METRICS_OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(METRICS_SOURCE_PATH, METRICS_OUTPUT_PATH)
         print(f"Wrote {METRICS_OUTPUT_PATH.relative_to(REPO_ROOT)} (copied from {METRICS_SOURCE_PATH.relative_to(REPO_ROOT)})")
+
+        print("Building impact board summary...")
+        from impact import build_impact_summary
+
+        results = json.loads(METRICS_SOURCE_PATH.read_text(encoding="utf-8"))
+        unsafe_entries = 0
+        for eval_seed in IMPACT_EVAL_SEEDS:
+            _, _, eval_events = generate_scenario(seed=eval_seed)
+            unsafe_entries += sum(1 for e in eval_events if "worker_intrusion" in e)
+        impact_summary = build_impact_summary(results, unsafe_entries, len(IMPACT_EVAL_SEEDS))
+
+        with IMPACT_SUMMARY_OUTPUT_PATH.open("w", encoding="utf-8") as f:
+            json.dump(impact_summary, f, indent=2, ensure_ascii=False)
+        print(f"Wrote {IMPACT_SUMMARY_OUTPUT_PATH.relative_to(REPO_ROOT)}")
+        print(f"  unsafe zone entries flagged (measured, {len(IMPACT_EVAL_SEEDS)} eval seeds): {unsafe_entries}")
     else:
         print(
-            f"Skipped metrics.json — {METRICS_SOURCE_PATH.relative_to(REPO_ROOT)} doesn't exist yet. "
-            f"Run `python engine/metrics/run.py` first."
+            f"Skipped metrics.json / impact_summary.json — {METRICS_SOURCE_PATH.relative_to(REPO_ROOT)} "
+            f"doesn't exist yet. Run `python engine/metrics/run.py` first."
         )
 
 

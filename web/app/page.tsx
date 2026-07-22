@@ -3,6 +3,7 @@
 import { useState } from "react";
 import LiveTab from "@/components/LiveTab";
 import KnowledgeTab from "@/components/KnowledgeTab";
+import DemoTab from "@/components/DemoTab";
 import { useDemoPlayer } from "@/lib/demo";
 
 const TABS = ["Live", "Demo", "Metrics", "Knowledge"] as const;
@@ -44,7 +45,7 @@ export default function Home() {
       </header>
 
       {tab === "Live" && <LiveTab player={player} />}
-      {tab === "Demo" && <StubTab name="Demo" note="Time-travel demo playback and labeled impact board land in Session 6." />}
+      {tab === "Demo" && <DemoTab player={player} />}
       {tab === "Metrics" && <StubTab name="Metrics" note="Hero vs. baseline comparison dashboard, sourced from metrics.json, lands in a later session's UI pass." />}
       {tab === "Knowledge" && <KnowledgeTab player={player} />}
     </main>
