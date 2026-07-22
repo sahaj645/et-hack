@@ -130,9 +130,32 @@ export interface LiveWorker extends PlantWorker {
 
 const STEP_MS_BASE = 90; // ~65s for a full 720-point day at 1x speed
 
+export interface KGNode {
+  id: string;
+  kind: string;
+  label: string;
+  [key: string]: unknown;
+}
+export interface KGEdge {
+  source: string;
+  target: string;
+  relation: string;
+}
+export interface KGPath {
+  event_id: string;
+  path_nodes: string[];
+  sentence: string;
+}
+export interface KGData {
+  nodes: KGNode[];
+  edges: KGEdge[];
+  paths: KGPath[];
+}
+
 export function useDemoPlayer() {
   const [scenario, setScenario] = useState<ScenarioData | null>(null);
   const [riskTimeline, setRiskTimeline] = useState<RiskTimelineData | null>(null);
+  const [kg, setKg] = useState<KGData | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [index, setIndexState] = useState(0);
   const [playing, setPlaying] = useState(false);
@@ -144,11 +167,13 @@ export function useDemoPlayer() {
     Promise.all([
       fetch("/data/scenario.json").then((r) => r.json()),
       fetch("/data/risk_timeline.json").then((r) => r.json()),
+      fetch("/data/kg.json").then((r) => r.json()),
     ])
-      .then(([s, r]: [ScenarioData, RiskTimelineData]) => {
+      .then(([s, r, k]: [ScenarioData, RiskTimelineData, KGData]) => {
         if (cancelled) return;
         setScenario(s);
         setRiskTimeline(r);
+        setKg(k);
       })
       .catch((e) => {
         if (!cancelled) setError(String(e));
@@ -189,7 +214,7 @@ export function useDemoPlayer() {
     [scenario]
   );
 
-  const ready = !!scenario && !!riskTimeline;
+  const ready = !!scenario && !!riskTimeline && !!kg;
   const row = ready ? scenario!.timeline[index] : null;
   const riskPoint = ready ? riskTimeline!.points[index] : null;
   const activeEvent = ready
@@ -210,6 +235,7 @@ export function useDemoPlayer() {
     error,
     scenario,
     riskTimeline,
+    kg,
     index,
     setIndex: scrub,
     playing,

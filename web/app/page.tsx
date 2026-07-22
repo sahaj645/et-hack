@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import LiveTab from "@/components/LiveTab";
+import KnowledgeTab from "@/components/KnowledgeTab";
+import { useDemoPlayer } from "@/lib/demo";
 
 const TABS = ["Live", "Demo", "Metrics", "Knowledge"] as const;
 type Tab = (typeof TABS)[number];
@@ -17,6 +19,7 @@ function StubTab({ name, note }: { name: string; note: string }) {
 
 export default function Home() {
   const [tab, setTab] = useState<Tab>("Live");
+  const player = useDemoPlayer();
 
   return (
     <main className="mx-auto min-h-screen max-w-[1400px] px-4 py-5 sm:px-6">
@@ -40,10 +43,10 @@ export default function Home() {
         </nav>
       </header>
 
-      {tab === "Live" && <LiveTab />}
+      {tab === "Live" && <LiveTab player={player} />}
       {tab === "Demo" && <StubTab name="Demo" note="Time-travel demo playback and labeled impact board land in Session 6." />}
       {tab === "Metrics" && <StubTab name="Metrics" note="Hero vs. baseline comparison dashboard, sourced from metrics.json, lands in a later session's UI pass." />}
-      {tab === "Knowledge" && <StubTab name="Knowledge" note="The compound-risk knowledge graph lands in Session 4." />}
+      {tab === "Knowledge" && <KnowledgeTab player={player} />}
     </main>
   );
 }

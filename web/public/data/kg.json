@@ -1,0 +1,368 @@
+{
+  "nodes": [
+    {
+      "id": "Z1",
+      "kind": "zone",
+      "label": "Tank Farm",
+      "zone_type": "restricted"
+    },
+    {
+      "id": "Z2",
+      "kind": "zone",
+      "label": "Compressor House",
+      "zone_type": "caution"
+    },
+    {
+      "id": "Z3",
+      "kind": "zone",
+      "label": "Utility & Control Area",
+      "zone_type": "normal"
+    },
+    {
+      "id": "worker:W-01",
+      "kind": "worker",
+      "label": "Worker 01",
+      "role": "Process Operator",
+      "shift": "day",
+      "worker_id": "W-01"
+    },
+    {
+      "id": "worker:W-02",
+      "kind": "worker",
+      "label": "Worker 02",
+      "role": "Process Operator",
+      "shift": "day",
+      "worker_id": "W-02"
+    },
+    {
+      "id": "worker:W-03",
+      "kind": "worker",
+      "label": "Worker 03",
+      "role": "Field Technician",
+      "shift": "day",
+      "worker_id": "W-03"
+    },
+    {
+      "id": "worker:W-04",
+      "kind": "worker",
+      "label": "Worker 04",
+      "role": "Field Technician",
+      "shift": "evening",
+      "worker_id": "W-04"
+    },
+    {
+      "id": "worker:W-05",
+      "kind": "worker",
+      "label": "Worker 05",
+      "role": "Shift Supervisor",
+      "shift": "night",
+      "worker_id": "W-05"
+    },
+    {
+      "id": "permit:P-01",
+      "kind": "permit",
+      "label": "P-01 (confined_space)",
+      "permit_id": "P-01",
+      "status": "active"
+    },
+    {
+      "id": "permit:P-02",
+      "kind": "permit",
+      "label": "P-02 (cold_work)",
+      "permit_id": "P-02",
+      "status": "active"
+    },
+    {
+      "id": "asset:TANK-01",
+      "kind": "asset",
+      "label": "Crude Storage Tank 01",
+      "asset_type": "storage_tank",
+      "asset_id": "TANK-01"
+    },
+    {
+      "id": "channel:pressure_bar@TANK-01",
+      "kind": "channel",
+      "label": "Pressure @ TANK-01",
+      "channel": "pressure_bar",
+      "asset_id": "TANK-01"
+    },
+    {
+      "id": "channel:gas_ppm@TANK-01",
+      "kind": "channel",
+      "label": "Gas Concentration @ TANK-01",
+      "channel": "gas_ppm",
+      "asset_id": "TANK-01"
+    },
+    {
+      "id": "channel:temp_tank_c@TANK-01",
+      "kind": "channel",
+      "label": "Tank Temperature @ TANK-01",
+      "channel": "temp_tank_c",
+      "asset_id": "TANK-01"
+    },
+    {
+      "id": "asset:PIPE-01",
+      "kind": "asset",
+      "label": "Tank Farm → Compressor Feed Line",
+      "asset_type": "pipeline",
+      "asset_id": "PIPE-01"
+    },
+    {
+      "id": "channel:pressure_bar@PIPE-01",
+      "kind": "channel",
+      "label": "Pressure @ PIPE-01",
+      "channel": "pressure_bar",
+      "asset_id": "PIPE-01"
+    },
+    {
+      "id": "channel:temp_tank_c@PIPE-01",
+      "kind": "channel",
+      "label": "Tank Temperature @ PIPE-01",
+      "channel": "temp_tank_c",
+      "asset_id": "PIPE-01"
+    },
+    {
+      "id": "asset:VALVE-01",
+      "kind": "asset",
+      "label": "TANK-01 Pressure Relief Valve",
+      "asset_type": "valve",
+      "asset_id": "VALVE-01"
+    },
+    {
+      "id": "channel:relief_capacity_pct@VALVE-01",
+      "kind": "channel",
+      "label": "Relief Capacity @ VALVE-01",
+      "channel": "relief_capacity_pct",
+      "asset_id": "VALVE-01"
+    },
+    {
+      "id": "asset:COMP-01",
+      "kind": "asset",
+      "label": "Feed Compressor 01",
+      "asset_type": "compressor",
+      "asset_id": "COMP-01"
+    },
+    {
+      "id": "channel:temp_compressor_c@COMP-01",
+      "kind": "channel",
+      "label": "Compressor Temperature @ COMP-01",
+      "channel": "temp_compressor_c",
+      "asset_id": "COMP-01"
+    },
+    {
+      "id": "channel:vibration_mms@COMP-01",
+      "kind": "channel",
+      "label": "Vibration @ COMP-01",
+      "channel": "vibration_mms",
+      "asset_id": "COMP-01"
+    },
+    {
+      "id": "asset:BOIL-01",
+      "kind": "asset",
+      "label": "Utility Boiler 01",
+      "asset_type": "boiler",
+      "asset_id": "BOIL-01"
+    },
+    {
+      "id": "task:MT-01",
+      "kind": "maintenance_task",
+      "label": "MT-01: Bearing inspection & lubrication",
+      "status": "overdue"
+    },
+    {
+      "id": "task:MT-02",
+      "kind": "maintenance_task",
+      "label": "MT-02: Relief valve function test",
+      "status": "in_progress"
+    },
+    {
+      "id": "task:MT-03",
+      "kind": "maintenance_task",
+      "label": "MT-03: Shell thickness ultrasonic survey",
+      "status": "scheduled"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Z1",
+      "target": "permit:P-01",
+      "relation": "governed_by"
+    },
+    {
+      "source": "Z1",
+      "target": "asset:TANK-01",
+      "relation": "contains"
+    },
+    {
+      "source": "Z1",
+      "target": "asset:PIPE-01",
+      "relation": "contains"
+    },
+    {
+      "source": "Z1",
+      "target": "asset:VALVE-01",
+      "relation": "contains"
+    },
+    {
+      "source": "Z2",
+      "target": "permit:P-02",
+      "relation": "governed_by"
+    },
+    {
+      "source": "Z2",
+      "target": "asset:COMP-01",
+      "relation": "contains"
+    },
+    {
+      "source": "Z3",
+      "target": "asset:BOIL-01",
+      "relation": "contains"
+    },
+    {
+      "source": "worker:W-01",
+      "target": "Z2",
+      "relation": "in"
+    },
+    {
+      "source": "worker:W-02",
+      "target": "Z3",
+      "relation": "in"
+    },
+    {
+      "source": "worker:W-03",
+      "target": "Z2",
+      "relation": "in"
+    },
+    {
+      "source": "worker:W-04",
+      "target": "Z3",
+      "relation": "in"
+    },
+    {
+      "source": "worker:W-05",
+      "target": "Z1",
+      "relation": "in"
+    },
+    {
+      "source": "permit:P-01",
+      "target": "worker:W-01",
+      "relation": "held_by"
+    },
+    {
+      "source": "permit:P-02",
+      "target": "worker:W-03",
+      "relation": "held_by"
+    },
+    {
+      "source": "asset:TANK-01",
+      "target": "channel:pressure_bar@TANK-01",
+      "relation": "monitored_by"
+    },
+    {
+      "source": "asset:TANK-01",
+      "target": "channel:gas_ppm@TANK-01",
+      "relation": "monitored_by"
+    },
+    {
+      "source": "asset:TANK-01",
+      "target": "channel:temp_tank_c@TANK-01",
+      "relation": "monitored_by"
+    },
+    {
+      "source": "asset:TANK-01",
+      "target": "task:MT-03",
+      "relation": "scheduled_task"
+    },
+    {
+      "source": "asset:TANK-01",
+      "target": "asset:PIPE-01",
+      "relation": "feeds"
+    },
+    {
+      "source": "asset:PIPE-01",
+      "target": "channel:pressure_bar@PIPE-01",
+      "relation": "monitored_by"
+    },
+    {
+      "source": "asset:PIPE-01",
+      "target": "channel:temp_tank_c@PIPE-01",
+      "relation": "monitored_by"
+    },
+    {
+      "source": "asset:PIPE-01",
+      "target": "asset:COMP-01",
+      "relation": "feeds"
+    },
+    {
+      "source": "asset:VALVE-01",
+      "target": "channel:relief_capacity_pct@VALVE-01",
+      "relation": "monitored_by"
+    },
+    {
+      "source": "asset:VALVE-01",
+      "target": "task:MT-02",
+      "relation": "scheduled_task"
+    },
+    {
+      "source": "asset:VALVE-01",
+      "target": "asset:TANK-01",
+      "relation": "relieves"
+    },
+    {
+      "source": "asset:COMP-01",
+      "target": "channel:temp_compressor_c@COMP-01",
+      "relation": "monitored_by"
+    },
+    {
+      "source": "asset:COMP-01",
+      "target": "channel:vibration_mms@COMP-01",
+      "relation": "monitored_by"
+    },
+    {
+      "source": "asset:COMP-01",
+      "target": "task:MT-01",
+      "relation": "scheduled_task"
+    }
+  ],
+  "paths": [
+    {
+      "event_id": "evt-gas-leak-01",
+      "path_nodes": [
+        "Z1",
+        "worker:W-05",
+        "permit:P-01",
+        "asset:TANK-01",
+        "channel:pressure_bar@TANK-01",
+        "channel:gas_ppm@TANK-01",
+        "asset:PIPE-01",
+        "channel:pressure_bar@PIPE-01",
+        "channel:wind_speed_kmh@Z1"
+      ],
+      "sentence": "Worker 05 enters Tank Farm (Z1) — Z1's standing entry permit P-01 is held by Worker 01, not Worker 05; TANK-01 shows Pressure falling, Gas Concentration rising; PIPE-01 shows Pressure falling; wind has dropped to near-calm, stalling dispersion."
+    },
+    {
+      "event_id": "evt-bearing-failure-01",
+      "path_nodes": [
+        "Z2",
+        "asset:COMP-01",
+        "channel:temp_compressor_c@COMP-01",
+        "channel:vibration_mms@COMP-01",
+        "task:MT-01"
+      ],
+      "sentence": "COMP-01 shows Compressor Temperature rising, Vibration rising; MT-01 (Bearing inspection & lubrication) is overdue."
+    },
+    {
+      "event_id": "evt-overpressure-01",
+      "path_nodes": [
+        "Z1",
+        "asset:TANK-01",
+        "channel:pressure_bar@TANK-01",
+        "channel:temp_tank_c@TANK-01",
+        "asset:VALVE-01",
+        "channel:relief_capacity_pct@VALVE-01",
+        "task:MT-02"
+      ],
+      "sentence": "TANK-01 shows Pressure rising, Tank Temperature rising; VALVE-01 shows Relief Capacity falling; MT-02 (Relief valve function test) is in progress; a hot-work permit is active in the same restricted zone."
+    }
+  ]
+}

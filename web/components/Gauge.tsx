@@ -5,7 +5,6 @@ import { COLORS, riskColorSmooth, riskLabel } from "@/lib/theme";
 
 interface GaugeProps {
   risk: number;
-  confidence: number;
 }
 
 const SIZE = 220;
@@ -16,7 +15,7 @@ const HEIGHT = SIZE / 2 + STROKE;
 
 const ARC_PATH = `M ${CENTER - RADIUS},${CENTER} A ${RADIUS},${RADIUS} 0 0 1 ${CENTER + RADIUS},${CENTER}`;
 
-export default function Gauge({ risk, confidence }: GaugeProps) {
+export default function Gauge({ risk }: GaugeProps) {
   const fraction = Math.max(0, Math.min(1, risk / 100));
   const color = riskColorSmooth(risk);
   const band = riskLabel(risk);
@@ -52,21 +51,6 @@ export default function Gauge({ risk, confidence }: GaugeProps) {
           <span className="mt-1 text-[11px] font-semibold uppercase tracking-widest text-slate-400">
             {band} Risk
           </span>
-        </div>
-      </div>
-      <div className="mt-2 w-40">
-        <div className="mb-1 flex justify-between font-mono-readout text-[10px] text-slate-500">
-          <span>CONFIDENCE</span>
-          <span>{(confidence * 100).toFixed(0)}%</span>
-        </div>
-        <div className="h-1.5 w-full overflow-hidden rounded-full bg-[#1a202c]">
-          <motion.div
-            className="h-full rounded-full"
-            style={{ background: COLORS.calm }}
-            initial={false}
-            animate={{ width: `${confidence * 100}%` }}
-            transition={{ duration: 0.3 }}
-          />
         </div>
       </div>
     </div>

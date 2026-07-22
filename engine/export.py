@@ -29,6 +29,7 @@ from simulator import CHANNEL_SPECS, DT_MINUTES, N_POINTS, SEED, WORKER_HOME_ZON
 REPO_ROOT = _ENGINE_DIR.parent
 OUTPUT_PATH = REPO_ROOT / "web" / "public" / "data" / "scenario.json"
 RISK_TIMELINE_OUTPUT_PATH = REPO_ROOT / "web" / "public" / "data" / "risk_timeline.json"
+KG_OUTPUT_PATH = REPO_ROOT / "web" / "public" / "data" / "kg.json"
 METRICS_SOURCE_PATH = _ENGINE_DIR / "metrics" / "results.json"
 METRICS_OUTPUT_PATH = REPO_ROOT / "web" / "public" / "data" / "metrics.json"
 
@@ -131,6 +132,16 @@ def main() -> None:
         json.dump(risk_payload, f, indent=2, ensure_ascii=False)
     risk_size_kb = RISK_TIMELINE_OUTPUT_PATH.stat().st_size / 1024
     print(f"Wrote {RISK_TIMELINE_OUTPUT_PATH.relative_to(REPO_ROOT)} ({risk_size_kb:.1f} KB)")
+
+    print("Building plant knowledge graph...")
+    from knowledge_graph import export_graph_payload
+    _kg_df, kg_plant, kg_events = generate_scenario(seed=SEED)
+    kg_payload = export_graph_payload(kg_plant, kg_events, _kg_df)
+    with KG_OUTPUT_PATH.open("w", encoding="utf-8") as f:
+        json.dump(kg_payload, f, indent=2, ensure_ascii=False)
+    kg_size_kb = KG_OUTPUT_PATH.stat().st_size / 1024
+    print(f"Wrote {KG_OUTPUT_PATH.relative_to(REPO_ROOT)} ({kg_size_kb:.1f} KB)")
+    print(f"  nodes: {len(kg_payload['nodes'])}  edges: {len(kg_payload['edges'])}  paths: {len(kg_payload['paths'])}")
 
     if METRICS_SOURCE_PATH.exists():
         METRICS_OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
