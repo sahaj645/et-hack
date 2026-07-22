@@ -84,7 +84,7 @@
       "n_instances": 60,
       "hero": {
         "detected_pct": 100.0,
-        "median_lead_min": 119.4,
+        "median_lead_min": 99.8,
         "lead_samples": 60
       },
       "baseline_a": {
@@ -94,8 +94,8 @@
       },
       "baseline_b": {
         "detected_pct": 100.0,
-        "median_lead_min": 94.9,
-        "lead_samples": 60
+        "median_lead_min": 92.4,
+        "lead_samples": 59
       }
     },
     "per_archetype": {
@@ -103,7 +103,7 @@
         "n_instances": 20,
         "hero": {
           "detected_pct": 100.0,
-          "median_lead_min": 121.7,
+          "median_lead_min": 99.8,
           "lead_samples": 20
         },
         "baseline_a": {
@@ -113,15 +113,15 @@
         },
         "baseline_b": {
           "detected_pct": 100.0,
-          "median_lead_min": 94.9,
-          "lead_samples": 20
+          "median_lead_min": 92.4,
+          "lead_samples": 19
         }
       },
       "gas_leak_ventilation_failure": {
         "n_instances": 20,
         "hero": {
           "detected_pct": 100.0,
-          "median_lead_min": 135.7,
+          "median_lead_min": 138.5,
           "lead_samples": 20
         },
         "baseline_a": {
@@ -131,7 +131,7 @@
         },
         "baseline_b": {
           "detected_pct": 100.0,
-          "median_lead_min": 116.7,
+          "median_lead_min": 122.1,
           "lead_samples": 20
         }
       },
@@ -139,7 +139,7 @@
         "n_instances": 20,
         "hero": {
           "detected_pct": 100.0,
-          "median_lead_min": 55.7,
+          "median_lead_min": 38.5,
           "lead_samples": 20
         },
         "baseline_a": {
@@ -149,7 +149,7 @@
         },
         "baseline_b": {
           "detected_pct": 100.0,
-          "median_lead_min": 41.8,
+          "median_lead_min": 39.6,
           "lead_samples": 20
         }
       }
@@ -157,7 +157,7 @@
   },
   "false_alarms_per_day": {
     "hero": {
-      "mean_false_alarms_per_day": 1.7,
+      "mean_false_alarms_per_day": 7.05,
       "days_evaluated": 20
     },
     "baseline_a": {
@@ -177,156 +177,156 @@
       "start_idx": 60,
       "end_idx": 120
     },
-    "operating_threshold": 97.23,
+    "operating_threshold": 40.43,
     "peak_idx": 104,
     "timeline": [
       {
         "idx": 60,
         "time": "2026-07-22T02:00:00",
-        "risk": 89.8,
-        "confidence": 0.17
+        "risk": 29.5,
+        "confidence": 0.08
       },
       {
         "idx": 63,
         "time": "2026-07-22T02:06:00",
-        "risk": 94.1,
-        "confidence": 0.25
+        "risk": 42.6,
+        "confidence": 0.17
       },
       {
         "idx": 66,
         "time": "2026-07-22T02:12:00",
-        "risk": 95.5,
-        "confidence": 0.17
+        "risk": 45.9,
+        "confidence": 0.08
       },
       {
         "idx": 69,
         "time": "2026-07-22T02:18:00",
-        "risk": 99.0,
-        "confidence": 0.25
+        "risk": 68.8,
+        "confidence": 0.2
       },
       {
         "idx": 72,
         "time": "2026-07-22T02:24:00",
-        "risk": 99.9,
-        "confidence": 0.66
+        "risk": 83.8,
+        "confidence": 0.41
       },
       {
         "idx": 75,
         "time": "2026-07-22T02:30:00",
-        "risk": 99.8,
-        "confidence": 0.54
+        "risk": 78.3,
+        "confidence": 0.32
       },
       {
         "idx": 78,
         "time": "2026-07-22T02:36:00",
-        "risk": 99.1,
-        "confidence": 0.25
+        "risk": 68.9,
+        "confidence": 0.17
       },
       {
         "idx": 81,
         "time": "2026-07-22T02:42:00",
-        "risk": 99.6,
-        "confidence": 0.44
+        "risk": 76.3,
+        "confidence": 0.28
       },
       {
         "idx": 84,
         "time": "2026-07-22T02:48:00",
-        "risk": 99.7,
-        "confidence": 0.61
+        "risk": 78.9,
+        "confidence": 0.32
       },
       {
         "idx": 87,
         "time": "2026-07-22T02:54:00",
-        "risk": 99.7,
-        "confidence": 0.57
+        "risk": 77.0,
+        "confidence": 0.28
       },
       {
         "idx": 90,
         "time": "2026-07-22T03:00:00",
-        "risk": 99.7,
-        "confidence": 0.56
+        "risk": 78.8,
+        "confidence": 0.31
       },
       {
         "idx": 93,
         "time": "2026-07-22T03:06:00",
-        "risk": 99.7,
-        "confidence": 0.57
+        "risk": 78.9,
+        "confidence": 0.31
       },
       {
         "idx": 96,
         "time": "2026-07-22T03:12:00",
-        "risk": 99.9,
-        "confidence": 0.78
+        "risk": 88.6,
+        "confidence": 0.48
       },
       {
         "idx": 99,
         "time": "2026-07-22T03:18:00",
-        "risk": 99.7,
-        "confidence": 0.56
+        "risk": 76.5,
+        "confidence": 0.36
       },
       {
         "idx": 102,
         "time": "2026-07-22T03:24:00",
-        "risk": 99.8,
-        "confidence": 0.69
+        "risk": 79.3,
+        "confidence": 0.4
       },
       {
         "idx": 105,
         "time": "2026-07-22T03:30:00",
-        "risk": 99.9,
-        "confidence": 0.79
+        "risk": 87.2,
+        "confidence": 0.45
       },
       {
         "idx": 108,
         "time": "2026-07-22T03:36:00",
-        "risk": 99.5,
-        "confidence": 0.38
+        "risk": 71.1,
+        "confidence": 0.27
       },
       {
         "idx": 111,
         "time": "2026-07-22T03:42:00",
-        "risk": 99.9,
-        "confidence": 0.76
+        "risk": 78.7,
+        "confidence": 0.35
       },
       {
         "idx": 114,
         "time": "2026-07-22T03:48:00",
-        "risk": 95.6,
-        "confidence": 0.17
+        "risk": 46.8,
+        "confidence": 0.08
       },
       {
         "idx": 117,
         "time": "2026-07-22T03:54:00",
-        "risk": 95.7,
+        "risk": 51.4,
         "confidence": 0.17
       },
       {
         "idx": 120,
         "time": "2026-07-22T04:00:00",
-        "risk": 97.8,
-        "confidence": 0.17
+        "risk": 70.9,
+        "confidence": 0.22
       }
     ],
     "contributors_at_peak": [
       {
         "agent": "sensor",
-        "normalized_score": 2.917,
-        "contribution_pct": 54.3
+        "normalized_score": 2.763,
+        "contribution_pct": 52.3
       },
       {
         "agent": "weather",
-        "normalized_score": 1.307,
-        "contribution_pct": 24.3
-      },
-      {
-        "agent": "equipment",
-        "normalized_score": 0.818,
-        "contribution_pct": 15.2
+        "normalized_score": 1.885,
+        "contribution_pct": 35.7
       },
       {
         "agent": "worker",
         "normalized_score": 0.333,
-        "contribution_pct": 6.2
+        "contribution_pct": 6.3
+      },
+      {
+        "agent": "equipment",
+        "normalized_score": 0.301,
+        "contribution_pct": 5.7
       },
       {
         "agent": "permit",
@@ -339,7 +339,7 @@
         "contribution_pct": 0.0
       }
     ],
-    "confidence_at_peak": 0.81,
-    "confidence_explanation": "67% of the six agents independently flag something unusual at this instant, and the fused score sits 96% of the way from the alert threshold toward the worst reading seen in 30 days of normal operation."
+    "confidence_at_peak": 0.49,
+    "confidence_explanation": "33% of the six agents independently flag something unusual at this instant, and the fused score sits 64% of the way from the alert threshold toward the worst reading seen in 30 days of normal operation."
   }
 }

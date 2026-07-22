@@ -153,7 +153,7 @@ def build_sample_incident(hero_model) -> dict:
         for i in range(event["start_idx"], event["end_idx"] + 1, 3)
     ]
     contributors = risk_agent.contributor_breakdown(result["agent_scores"], peak_idx)
-    model_margin = float(np.clip(result["model_percentile"].iloc[peak_idx] - 99.0, 0, 1))
+    model_margin = float(np.clip((result["model_score"].iloc[peak_idx] - 50.0) / 50.0, 0, 1))
     agreement = sum(
         1 for s in result["agent_scores"].values() if s.iloc[peak_idx] > risk_agent.AGENT_AGREEMENT_THRESHOLD
     ) / len(result["agent_scores"])

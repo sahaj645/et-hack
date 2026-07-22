@@ -1,0 +1,9365 @@
+{
+  "operating_threshold": 40.43,
+  "points": [
+    {
+      "idx": 0,
+      "risk": 3.8,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 66.3,
+        "sensor": 33.7,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 1,
+      "risk": 5.19,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 78.5,
+        "weather": 21.5,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 2,
+      "risk": 6.66,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 100.0,
+        "sensor": 0.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 3,
+      "risk": 6.9,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 51.1,
+        "sensor": 48.9,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 4,
+      "risk": 10.24,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 69.0,
+        "sensor": 31.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 5,
+      "risk": 8.26,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 64.7,
+        "sensor": 35.3,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 6,
+      "risk": 12.52,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 7,
+      "risk": 11.01,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 8,
+      "risk": 7.25,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 9,
+      "risk": 9.44,
+      "confidence": 0.167,
+      "contributors": {
+        "weather": 50.9,
+        "sensor": 49.1,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 10,
+      "risk": 4.55,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 11,
+      "risk": 5.36,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 69.2,
+        "weather": 30.8,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 12,
+      "risk": 4.03,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 13,
+      "risk": 4.05,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 14,
+      "risk": 5.53,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 15,
+      "risk": 5.37,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 16,
+      "risk": 12.01,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 17,
+      "risk": 15.32,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 89.1,
+        "weather": 10.9,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 18,
+      "risk": 18.38,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 93.6,
+        "weather": 6.4,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 19,
+      "risk": 14.96,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 84.1,
+        "weather": 15.9,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 20,
+      "risk": 31.32,
+      "confidence": 0.167,
+      "contributors": {
+        "weather": 50.4,
+        "sensor": 49.6,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 21,
+      "risk": 9.49,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 69.7,
+        "weather": 30.3,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 22,
+      "risk": 6.48,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 55.1,
+        "weather": 44.9,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 23,
+      "risk": 7.36,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 50.5,
+        "weather": 49.5,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 24,
+      "risk": 13.44,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 53.0,
+        "weather": 47.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 25,
+      "risk": 8.54,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 66.6,
+        "weather": 33.4,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 26,
+      "risk": 7.49,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 81.2,
+        "sensor": 18.8,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 27,
+      "risk": 20.56,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 96.7,
+        "sensor": 3.3,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 28,
+      "risk": 13.33,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 85.3,
+        "sensor": 14.7,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 29,
+      "risk": 18.45,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 64.5,
+        "sensor": 35.5,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 30,
+      "risk": 18.44,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 42.3,
+        "equipment": 36.9,
+        "weather": 20.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 31,
+      "risk": 23.39,
+      "confidence": 0.167,
+      "contributors": {
+        "weather": 43.2,
+        "sensor": 34.3,
+        "equipment": 22.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 32,
+      "risk": 14.44,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 48.0,
+        "weather": 35.3,
+        "sensor": 16.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 33,
+      "risk": 33.53,
+      "confidence": 0.167,
+      "contributors": {
+        "weather": 59.1,
+        "equipment": 39.5,
+        "sensor": 1.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 34,
+      "risk": 41.11,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 61.1,
+        "equipment": 22.8,
+        "sensor": 16.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 35,
+      "risk": 48.82,
+      "confidence": 0.188,
+      "contributors": {
+        "weather": 69.8,
+        "sensor": 26.4,
+        "equipment": 3.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 36,
+      "risk": 22.1,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 57.9,
+        "weather": 40.8,
+        "equipment": 1.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 37,
+      "risk": 12.3,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 62.6,
+        "equipment": 20.6,
+        "sensor": 16.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 38,
+      "risk": 9.62,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 88.0,
+        "sensor": 12.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 39,
+      "risk": 9.53,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 40,
+      "risk": 12.44,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 41,
+      "risk": 9.41,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 42,
+      "risk": 8.64,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 43,
+      "risk": 10.09,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 71.2,
+        "weather": 16.5,
+        "equipment": 12.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 44,
+      "risk": 33.75,
+      "confidence": 0.167,
+      "contributors": {
+        "weather": 56.7,
+        "sensor": 36.4,
+        "equipment": 6.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 45,
+      "risk": 11.24,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 53.7,
+        "weather": 46.3,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 46,
+      "risk": 6.31,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 94.8,
+        "weather": 5.2,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 47,
+      "risk": 3.18,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 60.0,
+        "weather": 40.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 48,
+      "risk": 6.87,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 72.0,
+        "weather": 28.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 49,
+      "risk": 4.39,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 50,
+      "risk": 14.86,
+      "confidence": 0.167,
+      "contributors": {
+        "weather": 52.5,
+        "sensor": 47.5,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 51,
+      "risk": 19.31,
+      "confidence": 0.167,
+      "contributors": {
+        "weather": 54.2,
+        "sensor": 39.6,
+        "equipment": 6.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 52,
+      "risk": 22.14,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 60.4,
+        "equipment": 20.2,
+        "sensor": 19.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 53,
+      "risk": 7.69,
+      "confidence": 0.0,
+      "contributors": {
+        "equipment": 51.0,
+        "sensor": 49.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 54,
+      "risk": 6.39,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 61.7,
+        "equipment": 38.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 55,
+      "risk": 20.97,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 73.3,
+        "equipment": 20.4,
+        "sensor": 6.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 56,
+      "risk": 28.54,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 100.0,
+        "sensor": 0.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 57,
+      "risk": 19.7,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 70.4,
+        "sensor": 29.6,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 58,
+      "risk": 12.17,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 86.6,
+        "sensor": 13.4,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 59,
+      "risk": 22.73,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 96.1,
+        "sensor": 2.5,
+        "equipment": 1.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 60,
+      "risk": 29.48,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 100.0,
+        "sensor": 0.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 61,
+      "risk": 33.87,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 100.0,
+        "sensor": 0.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 62,
+      "risk": 37.0,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 83.6,
+        "sensor": 16.4,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 63,
+      "risk": 42.61,
+      "confidence": 0.167,
+      "contributors": {
+        "weather": 79.4,
+        "sensor": 20.6,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 64,
+      "risk": 41.3,
+      "confidence": 0.167,
+      "contributors": {
+        "weather": 78.4,
+        "sensor": 21.6,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 65,
+      "risk": 56.77,
+      "confidence": 0.167,
+      "contributors": {
+        "weather": 72.1,
+        "sensor": 27.9,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 66,
+      "risk": 45.88,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 77.5,
+        "equipment": 11.5,
+        "sensor": 11.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 67,
+      "risk": 51.35,
+      "confidence": 0.167,
+      "contributors": {
+        "weather": 72.6,
+        "sensor": 20.7,
+        "equipment": 6.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 68,
+      "risk": 77.78,
+      "confidence": 0.331,
+      "contributors": {
+        "weather": 58.5,
+        "sensor": 36.9,
+        "equipment": 4.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 69,
+      "risk": 68.82,
+      "confidence": 0.201,
+      "contributors": {
+        "weather": 55.8,
+        "sensor": 43.2,
+        "equipment": 1.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 70,
+      "risk": 70.38,
+      "confidence": 0.209,
+      "contributors": {
+        "weather": 52.3,
+        "sensor": 43.9,
+        "equipment": 3.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 71,
+      "risk": 76.89,
+      "confidence": 0.317,
+      "contributors": {
+        "sensor": 51.5,
+        "weather": 48.5,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 72,
+      "risk": 83.82,
+      "confidence": 0.406,
+      "contributors": {
+        "sensor": 50.6,
+        "weather": 44.3,
+        "equipment": 5.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 73,
+      "risk": 74.67,
+      "confidence": 0.268,
+      "contributors": {
+        "weather": 53.5,
+        "sensor": 46.5,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 74,
+      "risk": 85.8,
+      "confidence": 0.455,
+      "contributors": {
+        "weather": 56.9,
+        "sensor": 43.1,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 75,
+      "risk": 78.28,
+      "confidence": 0.317,
+      "contributors": {
+        "sensor": 50.3,
+        "weather": 49.4,
+        "equipment": 0.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 76,
+      "risk": 76.35,
+      "confidence": 0.283,
+      "contributors": {
+        "sensor": 52.6,
+        "weather": 47.4,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 77,
+      "risk": 69.27,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 58.9,
+        "weather": 41.1,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 78,
+      "risk": 68.94,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 58.8,
+        "weather": 40.9,
+        "equipment": 0.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 79,
+      "risk": 67.74,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 55.6,
+        "weather": 44.4,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 80,
+      "risk": 68.08,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 56.8,
+        "weather": 43.2,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 81,
+      "risk": 76.29,
+      "confidence": 0.275,
+      "contributors": {
+        "sensor": 55.4,
+        "weather": 44.6,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 82,
+      "risk": 78.52,
+      "confidence": 0.311,
+      "contributors": {
+        "sensor": 58.0,
+        "weather": 42.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 83,
+      "risk": 77.88,
+      "confidence": 0.3,
+      "contributors": {
+        "sensor": 63.8,
+        "weather": 36.2,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 84,
+      "risk": 78.87,
+      "confidence": 0.315,
+      "contributors": {
+        "sensor": 61.0,
+        "weather": 32.7,
+        "worker": 6.3,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0
+      }
+    },
+    {
+      "idx": 85,
+      "risk": 77.19,
+      "confidence": 0.287,
+      "contributors": {
+        "sensor": 66.0,
+        "weather": 28.1,
+        "worker": 5.9,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0
+      }
+    },
+    {
+      "idx": 86,
+      "risk": 80.73,
+      "confidence": 0.346,
+      "contributors": {
+        "sensor": 65.0,
+        "weather": 26.5,
+        "worker": 5.2,
+        "equipment": 3.2,
+        "permit": 0.0,
+        "maintenance": 0.0
+      }
+    },
+    {
+      "idx": 87,
+      "risk": 77.02,
+      "confidence": 0.284,
+      "contributors": {
+        "sensor": 67.2,
+        "weather": 27.3,
+        "worker": 5.4,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0
+      }
+    },
+    {
+      "idx": 88,
+      "risk": 83.45,
+      "confidence": 0.391,
+      "contributors": {
+        "sensor": 62.1,
+        "weather": 28.9,
+        "worker": 5.7,
+        "equipment": 3.3,
+        "permit": 0.0,
+        "maintenance": 0.0
+      }
+    },
+    {
+      "idx": 89,
+      "risk": 79.55,
+      "confidence": 0.326,
+      "contributors": {
+        "sensor": 64.1,
+        "weather": 30.5,
+        "worker": 5.4,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0
+      }
+    },
+    {
+      "idx": 90,
+      "risk": 78.8,
+      "confidence": 0.313,
+      "contributors": {
+        "sensor": 66.7,
+        "weather": 27.9,
+        "worker": 5.4,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0
+      }
+    },
+    {
+      "idx": 91,
+      "risk": 76.48,
+      "confidence": 0.275,
+      "contributors": {
+        "sensor": 66.4,
+        "weather": 27.8,
+        "worker": 5.3,
+        "equipment": 0.5,
+        "permit": 0.0,
+        "maintenance": 0.0
+      }
+    },
+    {
+      "idx": 92,
+      "risk": 68.44,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 65.9,
+        "weather": 25.5,
+        "worker": 5.0,
+        "equipment": 3.6,
+        "permit": 0.0,
+        "maintenance": 0.0
+      }
+    },
+    {
+      "idx": 93,
+      "risk": 78.86,
+      "confidence": 0.314,
+      "contributors": {
+        "sensor": 64.0,
+        "weather": 28.9,
+        "worker": 5.4,
+        "equipment": 1.7,
+        "permit": 0.0,
+        "maintenance": 0.0
+      }
+    },
+    {
+      "idx": 94,
+      "risk": 79.69,
+      "confidence": 0.328,
+      "contributors": {
+        "sensor": 64.1,
+        "weather": 26.4,
+        "worker": 4.9,
+        "equipment": 4.6,
+        "permit": 0.0,
+        "maintenance": 0.0
+      }
+    },
+    {
+      "idx": 95,
+      "risk": 83.36,
+      "confidence": 0.389,
+      "contributors": {
+        "sensor": 60.9,
+        "weather": 29.2,
+        "worker": 5.2,
+        "equipment": 4.8,
+        "permit": 0.0,
+        "maintenance": 0.0
+      }
+    },
+    {
+      "idx": 96,
+      "risk": 88.56,
+      "confidence": 0.476,
+      "contributors": {
+        "sensor": 63.3,
+        "weather": 27.6,
+        "worker": 5.3,
+        "equipment": 3.8,
+        "permit": 0.0,
+        "maintenance": 0.0
+      }
+    },
+    {
+      "idx": 97,
+      "risk": 87.13,
+      "confidence": 0.452,
+      "contributors": {
+        "sensor": 58.5,
+        "weather": 29.7,
+        "equipment": 6.0,
+        "worker": 5.8,
+        "permit": 0.0,
+        "maintenance": 0.0
+      }
+    },
+    {
+      "idx": 98,
+      "risk": 74.81,
+      "confidence": 0.33,
+      "contributors": {
+        "sensor": 54.1,
+        "weather": 29.7,
+        "equipment": 10.2,
+        "worker": 5.9,
+        "permit": 0.0,
+        "maintenance": 0.0
+      }
+    },
+    {
+      "idx": 99,
+      "risk": 76.52,
+      "confidence": 0.359,
+      "contributors": {
+        "sensor": 57.6,
+        "weather": 26.9,
+        "equipment": 9.8,
+        "worker": 5.7,
+        "permit": 0.0,
+        "maintenance": 0.0
+      }
+    },
+    {
+      "idx": 100,
+      "risk": 87.58,
+      "confidence": 0.543,
+      "contributors": {
+        "sensor": 56.4,
+        "weather": 27.4,
+        "equipment": 10.2,
+        "worker": 6.0,
+        "permit": 0.0,
+        "maintenance": 0.0
+      }
+    },
+    {
+      "idx": 101,
+      "risk": 76.63,
+      "confidence": 0.361,
+      "contributors": {
+        "sensor": 55.4,
+        "weather": 26.7,
+        "equipment": 12.1,
+        "worker": 5.9,
+        "permit": 0.0,
+        "maintenance": 0.0
+      }
+    },
+    {
+      "idx": 102,
+      "risk": 79.26,
+      "confidence": 0.405,
+      "contributors": {
+        "sensor": 53.9,
+        "weather": 31.5,
+        "equipment": 8.5,
+        "worker": 6.1,
+        "permit": 0.0,
+        "maintenance": 0.0
+      }
+    },
+    {
+      "idx": 103,
+      "risk": 81.94,
+      "confidence": 0.449,
+      "contributors": {
+        "sensor": 50.4,
+        "weather": 33.9,
+        "equipment": 9.4,
+        "worker": 6.3,
+        "permit": 0.0,
+        "maintenance": 0.0
+      }
+    },
+    {
+      "idx": 104,
+      "risk": 89.16,
+      "confidence": 0.486,
+      "contributors": {
+        "sensor": 52.3,
+        "weather": 35.7,
+        "worker": 6.3,
+        "equipment": 5.7,
+        "permit": 0.0,
+        "maintenance": 0.0
+      }
+    },
+    {
+      "idx": 105,
+      "risk": 87.18,
+      "confidence": 0.454,
+      "contributors": {
+        "sensor": 50.3,
+        "weather": 37.4,
+        "worker": 7.0,
+        "equipment": 5.3,
+        "permit": 0.0,
+        "maintenance": 0.0
+      }
+    },
+    {
+      "idx": 106,
+      "risk": 85.78,
+      "confidence": 0.517,
+      "contributors": {
+        "weather": 40.8,
+        "sensor": 39.6,
+        "equipment": 11.8,
+        "worker": 7.8,
+        "permit": 0.0,
+        "maintenance": 0.0
+      }
+    },
+    {
+      "idx": 107,
+      "risk": 77.57,
+      "confidence": 0.38,
+      "contributors": {
+        "weather": 44.0,
+        "sensor": 32.3,
+        "equipment": 15.9,
+        "worker": 7.8,
+        "permit": 0.0,
+        "maintenance": 0.0
+      }
+    },
+    {
+      "idx": 108,
+      "risk": 71.11,
+      "confidence": 0.273,
+      "contributors": {
+        "weather": 44.0,
+        "sensor": 34.0,
+        "equipment": 14.1,
+        "worker": 7.9,
+        "permit": 0.0,
+        "maintenance": 0.0
+      }
+    },
+    {
+      "idx": 109,
+      "risk": 82.51,
+      "confidence": 0.461,
+      "contributors": {
+        "weather": 44.7,
+        "sensor": 31.0,
+        "equipment": 16.7,
+        "worker": 7.6,
+        "permit": 0.0,
+        "maintenance": 0.0
+      }
+    },
+    {
+      "idx": 110,
+      "risk": 75.34,
+      "confidence": 0.352,
+      "contributors": {
+        "weather": 51.6,
+        "sensor": 22.3,
+        "equipment": 17.1,
+        "worker": 9.0,
+        "permit": 0.0,
+        "maintenance": 0.0
+      }
+    },
+    {
+      "idx": 111,
+      "risk": 78.74,
+      "confidence": 0.349,
+      "contributors": {
+        "weather": 63.1,
+        "sensor": 18.8,
+        "worker": 10.4,
+        "equipment": 7.7,
+        "permit": 0.0,
+        "maintenance": 0.0
+      }
+    },
+    {
+      "idx": 112,
+      "risk": 68.63,
+      "confidence": 0.32,
+      "contributors": {
+        "weather": 69.1,
+        "sensor": 15.8,
+        "equipment": 15.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 113,
+      "risk": 64.55,
+      "confidence": 0.137,
+      "contributors": {
+        "weather": 72.9,
+        "equipment": 14.1,
+        "sensor": 13.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 114,
+      "risk": 46.82,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 91.2,
+        "equipment": 8.8,
+        "sensor": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 115,
+      "risk": 51.45,
+      "confidence": 0.138,
+      "contributors": {
+        "weather": 87.0,
+        "equipment": 13.0,
+        "sensor": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 116,
+      "risk": 57.88,
+      "confidence": 0.175,
+      "contributors": {
+        "weather": 83.0,
+        "equipment": 17.0,
+        "sensor": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 117,
+      "risk": 51.36,
+      "confidence": 0.167,
+      "contributors": {
+        "weather": 70.7,
+        "equipment": 24.9,
+        "sensor": 4.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 118,
+      "risk": 68.71,
+      "confidence": 0.256,
+      "contributors": {
+        "weather": 67.3,
+        "equipment": 20.7,
+        "sensor": 12.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 119,
+      "risk": 72.69,
+      "confidence": 0.298,
+      "contributors": {
+        "weather": 66.9,
+        "equipment": 24.5,
+        "sensor": 8.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 120,
+      "risk": 70.88,
+      "confidence": 0.22,
+      "contributors": {
+        "weather": 57.2,
+        "equipment": 38.9,
+        "sensor": 4.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 121,
+      "risk": 55.67,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 48.3,
+        "weather": 43.4,
+        "sensor": 8.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 122,
+      "risk": 35.22,
+      "confidence": 0.167,
+      "contributors": {
+        "weather": 47.8,
+        "equipment": 47.0,
+        "sensor": 5.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 123,
+      "risk": 34.71,
+      "confidence": 0.167,
+      "contributors": {
+        "weather": 54.2,
+        "equipment": 34.1,
+        "sensor": 11.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 124,
+      "risk": 34.24,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 63.7,
+        "equipment": 18.5,
+        "sensor": 17.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 125,
+      "risk": 35.58,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 69.2,
+        "sensor": 30.8,
+        "equipment": 0.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 126,
+      "risk": 44.8,
+      "confidence": 0.308,
+      "contributors": {
+        "sensor": 61.0,
+        "weather": 39.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 127,
+      "risk": 30.72,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 59.2,
+        "weather": 40.8,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 128,
+      "risk": 10.29,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 53.4,
+        "equipment": 46.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 129,
+      "risk": 6.98,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 130,
+      "risk": 12.99,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 89.4,
+        "equipment": 10.6,
+        "sensor": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 131,
+      "risk": 10.23,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 100.0,
+        "sensor": 0.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 132,
+      "risk": 10.91,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 68.6,
+        "sensor": 31.4,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 133,
+      "risk": 5.97,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 64.7,
+        "sensor": 35.3,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 134,
+      "risk": 8.06,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 0.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 135,
+      "risk": 10.41,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 0.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 136,
+      "risk": 11.54,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 0.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 137,
+      "risk": 4.4,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 138,
+      "risk": 3.83,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 0.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 139,
+      "risk": 3.33,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 140,
+      "risk": 3.98,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 141,
+      "risk": 13.94,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 142,
+      "risk": 36.12,
+      "confidence": 0.077,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 143,
+      "risk": 9.85,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 84.2,
+        "equipment": 15.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 144,
+      "risk": 5.78,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 145,
+      "risk": 5.17,
+      "confidence": 0.0,
+      "contributors": {
+        "equipment": 100.0,
+        "sensor": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 146,
+      "risk": 6.71,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 0.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 147,
+      "risk": 4.31,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 0.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 148,
+      "risk": 3.77,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 0.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 149,
+      "risk": 2.99,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 150,
+      "risk": 3.51,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 0.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 151,
+      "risk": 6.28,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 100.0,
+        "sensor": 0.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 152,
+      "risk": 6.01,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 0.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 153,
+      "risk": 4.88,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 0.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 154,
+      "risk": 9.07,
+      "confidence": 0.0,
+      "contributors": {
+        "equipment": 100.0,
+        "sensor": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 155,
+      "risk": 7.01,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 88.7,
+        "sensor": 11.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 156,
+      "risk": 4.94,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 75.2,
+        "sensor": 24.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 157,
+      "risk": 7.38,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 61.8,
+        "sensor": 32.6,
+        "weather": 5.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 158,
+      "risk": 12.48,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 56.6,
+        "equipment": 43.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 159,
+      "risk": 9.99,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 69.8,
+        "sensor": 30.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 160,
+      "risk": 9.21,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 74.8,
+        "sensor": 25.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 161,
+      "risk": 15.8,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 67.4,
+        "sensor": 32.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 162,
+      "risk": 18.06,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 54.3,
+        "sensor": 45.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 163,
+      "risk": 7.13,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 82.1,
+        "sensor": 17.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 164,
+      "risk": 5.52,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 86.7,
+        "sensor": 13.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 165,
+      "risk": 13.06,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 60.9,
+        "sensor": 33.7,
+        "weather": 5.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 166,
+      "risk": 24.97,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 67.7,
+        "sensor": 32.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 167,
+      "risk": 15.24,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 60.0,
+        "sensor": 40.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 168,
+      "risk": 9.18,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 50.4,
+        "equipment": 49.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 169,
+      "risk": 7.0,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 93.4,
+        "equipment": 6.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 170,
+      "risk": 4.26,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 171,
+      "risk": 3.57,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 172,
+      "risk": 3.3,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 52.9,
+        "weather": 31.9,
+        "equipment": 15.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 173,
+      "risk": 6.79,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 48.7,
+        "equipment": 28.8,
+        "sensor": 22.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 174,
+      "risk": 5.12,
+      "confidence": 0.0,
+      "contributors": {
+        "equipment": 77.0,
+        "weather": 23.0,
+        "sensor": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 175,
+      "risk": 5.79,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 64.1,
+        "sensor": 21.4,
+        "equipment": 14.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 176,
+      "risk": 20.78,
+      "confidence": 0.25,
+      "contributors": {
+        "sensor": 49.3,
+        "equipment": 26.6,
+        "weather": 24.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 177,
+      "risk": 20.45,
+      "confidence": 0.167,
+      "contributors": {
+        "weather": 51.6,
+        "equipment": 36.2,
+        "sensor": 12.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 178,
+      "risk": 16.87,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 52.0,
+        "weather": 31.4,
+        "sensor": 16.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 179,
+      "risk": 14.21,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 63.2,
+        "weather": 33.0,
+        "sensor": 3.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 180,
+      "risk": 30.77,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 45.1,
+        "weather": 44.4,
+        "sensor": 10.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 181,
+      "risk": 20.21,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 59.5,
+        "weather": 27.1,
+        "sensor": 13.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 182,
+      "risk": 17.74,
+      "confidence": 0.167,
+      "contributors": {
+        "weather": 44.5,
+        "equipment": 31.7,
+        "sensor": 23.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 183,
+      "risk": 18.43,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 41.5,
+        "equipment": 36.2,
+        "weather": 22.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 184,
+      "risk": 14.91,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 40.4,
+        "weather": 34.6,
+        "equipment": 25.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 185,
+      "risk": 17.62,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 80.9,
+        "equipment": 19.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 186,
+      "risk": 7.79,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 87.2,
+        "equipment": 12.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 187,
+      "risk": 5.19,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 73.4,
+        "weather": 26.6,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 188,
+      "risk": 7.9,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 49.8,
+        "weather": 47.1,
+        "equipment": 3.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 189,
+      "risk": 14.24,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 68.1,
+        "equipment": 18.2,
+        "weather": 13.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 190,
+      "risk": 12.71,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 51.1,
+        "equipment": 29.2,
+        "weather": 19.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 191,
+      "risk": 18.65,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 63.4,
+        "equipment": 18.8,
+        "weather": 17.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 192,
+      "risk": 5.39,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 65.0,
+        "equipment": 35.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 193,
+      "risk": 13.15,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 62.0,
+        "equipment": 31.9,
+        "weather": 6.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 194,
+      "risk": 10.65,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 57.3,
+        "sensor": 40.0,
+        "weather": 2.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 195,
+      "risk": 11.0,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 53.7,
+        "sensor": 46.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 196,
+      "risk": 9.27,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 69.5,
+        "equipment": 30.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 197,
+      "risk": 5.8,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 73.2,
+        "equipment": 26.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 198,
+      "risk": 9.11,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 53.0,
+        "equipment": 47.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 199,
+      "risk": 8.46,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 52.3,
+        "weather": 38.1,
+        "sensor": 9.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 200,
+      "risk": 16.58,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 47.6,
+        "weather": 46.8,
+        "sensor": 5.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 201,
+      "risk": 5.57,
+      "confidence": 0.0,
+      "contributors": {
+        "equipment": 45.2,
+        "weather": 35.8,
+        "sensor": 19.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 202,
+      "risk": 7.9,
+      "confidence": 0.0,
+      "contributors": {
+        "equipment": 46.6,
+        "weather": 28.8,
+        "sensor": 24.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 203,
+      "risk": 5.64,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 45.9,
+        "equipment": 41.5,
+        "weather": 12.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 204,
+      "risk": 7.0,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 205,
+      "risk": 8.48,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 74.5,
+        "weather": 25.5,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 206,
+      "risk": 8.56,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 57.7,
+        "weather": 42.3,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 207,
+      "risk": 5.28,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 208,
+      "risk": 8.51,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 49.6,
+        "sensor": 25.9,
+        "equipment": 24.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 209,
+      "risk": 3.66,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 0.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 210,
+      "risk": 3.13,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 211,
+      "risk": 4.65,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 212,
+      "risk": 3.48,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 85.1,
+        "equipment": 14.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 213,
+      "risk": 3.68,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 76.9,
+        "weather": 23.1,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 214,
+      "risk": 3.28,
+      "confidence": 0.0,
+      "contributors": {
+        "equipment": 67.7,
+        "weather": 16.4,
+        "sensor": 15.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 215,
+      "risk": 6.76,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 72.1,
+        "sensor": 27.6,
+        "weather": 0.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 216,
+      "risk": 6.6,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 58.7,
+        "weather": 25.3,
+        "sensor": 16.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 217,
+      "risk": 6.82,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 69.4,
+        "sensor": 17.1,
+        "weather": 13.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 218,
+      "risk": 9.1,
+      "confidence": 0.0,
+      "contributors": {
+        "equipment": 34.8,
+        "sensor": 32.9,
+        "weather": 32.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 219,
+      "risk": 9.16,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 56.6,
+        "sensor": 31.2,
+        "weather": 12.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 220,
+      "risk": 11.75,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 68.2,
+        "equipment": 31.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 221,
+      "risk": 6.24,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 62.6,
+        "equipment": 37.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 222,
+      "risk": 7.13,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 50.1,
+        "sensor": 45.9,
+        "equipment": 4.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 223,
+      "risk": 10.34,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 48.0,
+        "weather": 45.3,
+        "equipment": 6.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 224,
+      "risk": 8.92,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 76.7,
+        "weather": 23.3,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 225,
+      "risk": 3.94,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 55.0,
+        "weather": 24.7,
+        "equipment": 20.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 226,
+      "risk": 16.14,
+      "confidence": 0.167,
+      "contributors": {
+        "weather": 55.9,
+        "sensor": 34.6,
+        "equipment": 9.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 227,
+      "risk": 15.95,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 55.9,
+        "equipment": 26.7,
+        "weather": 17.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 228,
+      "risk": 7.19,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 63.7,
+        "equipment": 24.0,
+        "weather": 12.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 229,
+      "risk": 4.66,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 49.4,
+        "sensor": 45.4,
+        "equipment": 5.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 230,
+      "risk": 5.62,
+      "confidence": 0.0,
+      "contributors": {
+        "equipment": 68.9,
+        "sensor": 31.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 231,
+      "risk": 4.55,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 49.0,
+        "equipment": 36.1,
+        "weather": 14.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 232,
+      "risk": 5.13,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 65.2,
+        "weather": 34.8,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 233,
+      "risk": 4.56,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 95.2,
+        "weather": 4.8,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 234,
+      "risk": 4.73,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 64.8,
+        "equipment": 35.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 235,
+      "risk": 9.06,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 57.5,
+        "sensor": 42.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 236,
+      "risk": 3.0,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 237,
+      "risk": 2.75,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 238,
+      "risk": 3.78,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 239,
+      "risk": 5.06,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 0.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 240,
+      "risk": 9.5,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 76.0,
+        "weather": 24.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 241,
+      "risk": 17.3,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 100.0,
+        "sensor": 0.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 242,
+      "risk": 27.53,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 100.0,
+        "sensor": 0.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 243,
+      "risk": 12.52,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 62.1,
+        "equipment": 37.9,
+        "sensor": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 244,
+      "risk": 2.76,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 100.0,
+        "sensor": 0.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 245,
+      "risk": 5.99,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 100.0,
+        "sensor": 0.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 246,
+      "risk": 14.32,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 100.0,
+        "sensor": 0.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 247,
+      "risk": 4.74,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 86.0,
+        "sensor": 14.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 248,
+      "risk": 6.47,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 67.1,
+        "weather": 32.9,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 249,
+      "risk": 3.4,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 56.5,
+        "weather": 43.5,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 250,
+      "risk": 3.06,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 59.5,
+        "weather": 40.5,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 251,
+      "risk": 2.38,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 252,
+      "risk": 4.51,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 253,
+      "risk": 4.11,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 54.4,
+        "equipment": 45.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 254,
+      "risk": 4.06,
+      "confidence": 0.0,
+      "contributors": {
+        "equipment": 81.3,
+        "sensor": 18.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 255,
+      "risk": 2.99,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 256,
+      "risk": 4.08,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 257,
+      "risk": 10.8,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 58.2,
+        "sensor": 41.8,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 258,
+      "risk": 7.47,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 51.8,
+        "sensor": 43.6,
+        "equipment": 4.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 259,
+      "risk": 5.46,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 54.1,
+        "equipment": 27.3,
+        "weather": 18.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 260,
+      "risk": 6.9,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 60.5,
+        "weather": 31.7,
+        "equipment": 7.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 261,
+      "risk": 11.41,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 67.4,
+        "equipment": 32.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 262,
+      "risk": 6.43,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 59.7,
+        "equipment": 40.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 263,
+      "risk": 8.58,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 57.9,
+        "sensor": 42.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 264,
+      "risk": 5.6,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 51.8,
+        "equipment": 48.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 265,
+      "risk": 5.36,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 266,
+      "risk": 4.97,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 77.6,
+        "equipment": 22.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 267,
+      "risk": 5.37,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 94.7,
+        "equipment": 5.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 268,
+      "risk": 14.75,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 269,
+      "risk": 12.6,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 95.2,
+        "weather": 4.8,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 270,
+      "risk": 4.06,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 92.4,
+        "weather": 7.6,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 271,
+      "risk": 3.99,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 272,
+      "risk": 6.41,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 98.4,
+        "equipment": 1.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 273,
+      "risk": 9.95,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 274,
+      "risk": 10.82,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 275,
+      "risk": 14.57,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 276,
+      "risk": 13.68,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 74.8,
+        "equipment": 25.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 277,
+      "risk": 9.75,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 55.4,
+        "equipment": 44.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 278,
+      "risk": 19.25,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 64.9,
+        "sensor": 35.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 279,
+      "risk": 26.22,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 63.7,
+        "sensor": 36.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 280,
+      "risk": 16.65,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 52.2,
+        "sensor": 47.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 281,
+      "risk": 19.9,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 51.4,
+        "equipment": 48.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 282,
+      "risk": 35.67,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 51.9,
+        "sensor": 48.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 283,
+      "risk": 51.51,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 54.5,
+        "sensor": 45.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 284,
+      "risk": 44.4,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 64.3,
+        "sensor": 35.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 285,
+      "risk": 57.09,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 67.4,
+        "sensor": 32.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 286,
+      "risk": 57.87,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 71.4,
+        "sensor": 26.4,
+        "weather": 2.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 287,
+      "risk": 57.44,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 72.5,
+        "sensor": 27.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 288,
+      "risk": 57.25,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 72.7,
+        "sensor": 25.8,
+        "weather": 1.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 289,
+      "risk": 56.58,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 74.8,
+        "sensor": 22.8,
+        "weather": 2.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 290,
+      "risk": 57.87,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 80.6,
+        "sensor": 18.6,
+        "weather": 0.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 291,
+      "risk": 56.27,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 81.0,
+        "sensor": 19.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 292,
+      "risk": 62.33,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 80.1,
+        "sensor": 19.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 293,
+      "risk": 65.34,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 84.1,
+        "sensor": 15.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 294,
+      "risk": 73.85,
+      "confidence": 0.231,
+      "contributors": {
+        "equipment": 83.9,
+        "sensor": 15.4,
+        "weather": 0.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 295,
+      "risk": 64.31,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 86.9,
+        "sensor": 13.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 296,
+      "risk": 60.67,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 83.2,
+        "sensor": 13.6,
+        "weather": 3.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 297,
+      "risk": 60.31,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 81.3,
+        "sensor": 15.2,
+        "weather": 3.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 298,
+      "risk": 68.16,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 87.6,
+        "sensor": 12.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 299,
+      "risk": 74.74,
+      "confidence": 0.246,
+      "contributors": {
+        "equipment": 87.2,
+        "sensor": 12.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 300,
+      "risk": 79.47,
+      "confidence": 0.324,
+      "contributors": {
+        "equipment": 84.2,
+        "sensor": 14.9,
+        "weather": 0.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 301,
+      "risk": 70.77,
+      "confidence": 0.179,
+      "contributors": {
+        "equipment": 86.0,
+        "sensor": 13.2,
+        "weather": 0.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 302,
+      "risk": 62.85,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 88.0,
+        "sensor": 11.4,
+        "weather": 0.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 303,
+      "risk": 68.32,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 88.9,
+        "sensor": 11.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 304,
+      "risk": 70.56,
+      "confidence": 0.176,
+      "contributors": {
+        "equipment": 90.9,
+        "sensor": 9.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 305,
+      "risk": 66.11,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 88.7,
+        "sensor": 11.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 306,
+      "risk": 69.76,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 91.3,
+        "sensor": 8.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 307,
+      "risk": 56.78,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 91.2,
+        "sensor": 8.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 308,
+      "risk": 54.84,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 91.3,
+        "sensor": 8.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 309,
+      "risk": 63.26,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 90.1,
+        "sensor": 8.9,
+        "weather": 1.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 310,
+      "risk": 73.69,
+      "confidence": 0.228,
+      "contributors": {
+        "equipment": 86.4,
+        "sensor": 11.3,
+        "weather": 2.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 311,
+      "risk": 75.07,
+      "confidence": 0.334,
+      "contributors": {
+        "equipment": 84.0,
+        "sensor": 13.1,
+        "weather": 3.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 312,
+      "risk": 71.2,
+      "confidence": 0.27,
+      "contributors": {
+        "equipment": 84.4,
+        "sensor": 12.8,
+        "weather": 2.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 313,
+      "risk": 83.1,
+      "confidence": 0.468,
+      "contributors": {
+        "equipment": 85.2,
+        "sensor": 11.7,
+        "weather": 3.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 314,
+      "risk": 72.28,
+      "confidence": 0.205,
+      "contributors": {
+        "equipment": 87.7,
+        "sensor": 10.4,
+        "weather": 1.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 315,
+      "risk": 71.87,
+      "confidence": 0.281,
+      "contributors": {
+        "equipment": 87.4,
+        "sensor": 10.3,
+        "weather": 2.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 316,
+      "risk": 79.43,
+      "confidence": 0.407,
+      "contributors": {
+        "equipment": 85.7,
+        "sensor": 10.1,
+        "weather": 4.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 317,
+      "risk": 81.77,
+      "confidence": 0.446,
+      "contributors": {
+        "equipment": 87.0,
+        "sensor": 9.3,
+        "weather": 3.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 318,
+      "risk": 78.71,
+      "confidence": 0.395,
+      "contributors": {
+        "equipment": 86.7,
+        "sensor": 10.3,
+        "weather": 2.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 319,
+      "risk": 75.7,
+      "confidence": 0.345,
+      "contributors": {
+        "equipment": 87.6,
+        "sensor": 9.9,
+        "weather": 2.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 320,
+      "risk": 75.78,
+      "confidence": 0.263,
+      "contributors": {
+        "equipment": 89.1,
+        "sensor": 10.6,
+        "weather": 0.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 321,
+      "risk": 82.86,
+      "confidence": 0.381,
+      "contributors": {
+        "equipment": 89.3,
+        "sensor": 10.0,
+        "weather": 0.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 322,
+      "risk": 73.89,
+      "confidence": 0.231,
+      "contributors": {
+        "equipment": 90.1,
+        "sensor": 9.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 323,
+      "risk": 78.23,
+      "confidence": 0.304,
+      "contributors": {
+        "equipment": 88.8,
+        "sensor": 11.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 324,
+      "risk": 79.28,
+      "confidence": 0.321,
+      "contributors": {
+        "equipment": 88.0,
+        "sensor": 12.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 325,
+      "risk": 70.27,
+      "confidence": 0.171,
+      "contributors": {
+        "equipment": 86.9,
+        "sensor": 12.8,
+        "weather": 0.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 326,
+      "risk": 66.72,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 87.9,
+        "sensor": 12.0,
+        "weather": 0.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 327,
+      "risk": 60.51,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 89.1,
+        "sensor": 10.3,
+        "weather": 0.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 328,
+      "risk": 61.75,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 91.2,
+        "sensor": 8.7,
+        "weather": 0.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 329,
+      "risk": 58.22,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 91.5,
+        "sensor": 8.4,
+        "weather": 0.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 330,
+      "risk": 55.58,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 89.9,
+        "sensor": 8.7,
+        "weather": 1.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 331,
+      "risk": 63.25,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 89.4,
+        "sensor": 10.3,
+        "weather": 0.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 332,
+      "risk": 71.33,
+      "confidence": 0.189,
+      "contributors": {
+        "equipment": 89.9,
+        "sensor": 10.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 333,
+      "risk": 59.55,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 89.2,
+        "sensor": 10.4,
+        "weather": 0.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 334,
+      "risk": 58.1,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 89.4,
+        "sensor": 10.4,
+        "weather": 0.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 335,
+      "risk": 61.68,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 90.2,
+        "sensor": 9.6,
+        "weather": 0.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 336,
+      "risk": 58.62,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 88.9,
+        "sensor": 10.2,
+        "weather": 0.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 337,
+      "risk": 56.93,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 89.1,
+        "sensor": 10.4,
+        "weather": 0.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 338,
+      "risk": 56.66,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 88.6,
+        "sensor": 10.5,
+        "weather": 0.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 339,
+      "risk": 58.26,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 87.1,
+        "sensor": 11.5,
+        "weather": 1.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 340,
+      "risk": 62.59,
+      "confidence": 0.25,
+      "contributors": {
+        "equipment": 88.4,
+        "sensor": 9.4,
+        "weather": 2.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 341,
+      "risk": 61.58,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 89.1,
+        "sensor": 9.0,
+        "weather": 1.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 342,
+      "risk": 60.66,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 90.9,
+        "sensor": 8.3,
+        "weather": 0.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 343,
+      "risk": 66.0,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 89.8,
+        "sensor": 9.1,
+        "weather": 1.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 344,
+      "risk": 62.93,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 89.3,
+        "sensor": 10.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 345,
+      "risk": 60.84,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 90.8,
+        "sensor": 9.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 346,
+      "risk": 68.46,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 90.4,
+        "sensor": 9.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 347,
+      "risk": 63.4,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 92.0,
+        "sensor": 8.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 348,
+      "risk": 66.01,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 92.7,
+        "sensor": 7.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 349,
+      "risk": 59.93,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 91.5,
+        "sensor": 8.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 350,
+      "risk": 61.67,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 90.8,
+        "sensor": 8.3,
+        "weather": 0.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 351,
+      "risk": 57.62,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 88.2,
+        "sensor": 10.9,
+        "weather": 0.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 352,
+      "risk": 58.19,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 89.9,
+        "sensor": 10.1,
+        "weather": 0.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 353,
+      "risk": 65.28,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 90.1,
+        "sensor": 9.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 354,
+      "risk": 66.63,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 89.5,
+        "sensor": 10.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 355,
+      "risk": 59.61,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 91.2,
+        "sensor": 8.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 356,
+      "risk": 61.47,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 91.3,
+        "sensor": 8.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 357,
+      "risk": 75.37,
+      "confidence": 0.256,
+      "contributors": {
+        "equipment": 89.9,
+        "sensor": 10.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 358,
+      "risk": 63.24,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 91.0,
+        "sensor": 9.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 359,
+      "risk": 63.16,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 91.3,
+        "sensor": 8.3,
+        "weather": 0.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 360,
+      "risk": 64.74,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 90.3,
+        "sensor": 9.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 361,
+      "risk": 66.32,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 89.3,
+        "sensor": 10.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 362,
+      "risk": 63.35,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 88.7,
+        "sensor": 11.2,
+        "weather": 0.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 363,
+      "risk": 63.69,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 89.9,
+        "sensor": 9.5,
+        "weather": 0.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 364,
+      "risk": 58.92,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 90.2,
+        "sensor": 8.9,
+        "weather": 0.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 365,
+      "risk": 62.51,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 90.1,
+        "sensor": 8.7,
+        "weather": 1.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 366,
+      "risk": 56.89,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 91.0,
+        "sensor": 7.3,
+        "weather": 1.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 367,
+      "risk": 56.71,
+      "confidence": 0.25,
+      "contributors": {
+        "equipment": 91.5,
+        "sensor": 6.2,
+        "weather": 2.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 368,
+      "risk": 58.25,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 91.8,
+        "sensor": 6.4,
+        "weather": 1.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 369,
+      "risk": 64.9,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 91.5,
+        "sensor": 6.7,
+        "weather": 1.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 370,
+      "risk": 59.0,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 92.5,
+        "sensor": 7.2,
+        "weather": 0.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 371,
+      "risk": 64.72,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 92.6,
+        "sensor": 7.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 372,
+      "risk": 71.88,
+      "confidence": 0.198,
+      "contributors": {
+        "equipment": 92.1,
+        "sensor": 7.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 373,
+      "risk": 64.67,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 89.9,
+        "sensor": 9.7,
+        "weather": 0.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 374,
+      "risk": 63.45,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 90.8,
+        "sensor": 8.9,
+        "weather": 0.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 375,
+      "risk": 75.86,
+      "confidence": 0.264,
+      "contributors": {
+        "equipment": 90.0,
+        "sensor": 10.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 376,
+      "risk": 73.28,
+      "confidence": 0.221,
+      "contributors": {
+        "equipment": 90.5,
+        "sensor": 9.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 377,
+      "risk": 73.72,
+      "confidence": 0.229,
+      "contributors": {
+        "equipment": 92.7,
+        "sensor": 7.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 378,
+      "risk": 75.56,
+      "confidence": 0.259,
+      "contributors": {
+        "equipment": 91.3,
+        "sensor": 8.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 379,
+      "risk": 73.49,
+      "confidence": 0.225,
+      "contributors": {
+        "equipment": 91.6,
+        "sensor": 8.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 380,
+      "risk": 79.24,
+      "confidence": 0.321,
+      "contributors": {
+        "equipment": 91.9,
+        "sensor": 8.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 381,
+      "risk": 78.08,
+      "confidence": 0.301,
+      "contributors": {
+        "equipment": 91.9,
+        "sensor": 8.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 382,
+      "risk": 66.49,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 92.2,
+        "sensor": 6.6,
+        "weather": 1.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 383,
+      "risk": 61.16,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 93.8,
+        "sensor": 5.7,
+        "weather": 0.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 384,
+      "risk": 57.42,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 95.8,
+        "sensor": 4.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 385,
+      "risk": 60.59,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 96.0,
+        "sensor": 4.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 386,
+      "risk": 65.17,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 96.7,
+        "sensor": 3.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 387,
+      "risk": 76.05,
+      "confidence": 0.268,
+      "contributors": {
+        "equipment": 94.8,
+        "sensor": 5.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 388,
+      "risk": 65.74,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 95.5,
+        "sensor": 4.2,
+        "weather": 0.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 389,
+      "risk": 60.35,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 95.7,
+        "sensor": 4.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 390,
+      "risk": 70.16,
+      "confidence": 0.086,
+      "contributors": {
+        "equipment": 96.1,
+        "sensor": 3.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 391,
+      "risk": 71.2,
+      "confidence": 0.103,
+      "contributors": {
+        "equipment": 96.6,
+        "sensor": 3.1,
+        "weather": 0.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 392,
+      "risk": 70.78,
+      "confidence": 0.096,
+      "contributors": {
+        "equipment": 96.8,
+        "sensor": 3.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 393,
+      "risk": 74.59,
+      "confidence": 0.16,
+      "contributors": {
+        "equipment": 97.4,
+        "sensor": 2.2,
+        "weather": 0.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 394,
+      "risk": 67.35,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 95.1,
+        "sensor": 3.3,
+        "weather": 1.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 395,
+      "risk": 68.29,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 96.0,
+        "sensor": 4.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 396,
+      "risk": 62.08,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 91.2,
+        "sensor": 8.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 397,
+      "risk": 50.43,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 92.5,
+        "sensor": 7.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 398,
+      "risk": 47.76,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 90.4,
+        "sensor": 9.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 399,
+      "risk": 44.59,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 87.0,
+        "sensor": 13.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 400,
+      "risk": 43.78,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 77.3,
+        "sensor": 14.9,
+        "weather": 7.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 401,
+      "risk": 45.49,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 76.9,
+        "sensor": 14.3,
+        "weather": 8.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 402,
+      "risk": 44.37,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 72.3,
+        "sensor": 20.4,
+        "weather": 7.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 403,
+      "risk": 56.68,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 68.1,
+        "sensor": 25.0,
+        "weather": 6.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 404,
+      "risk": 65.52,
+      "confidence": 0.168,
+      "contributors": {
+        "equipment": 66.3,
+        "sensor": 29.8,
+        "weather": 3.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 405,
+      "risk": 46.74,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 69.7,
+        "sensor": 30.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 406,
+      "risk": 35.67,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 66.7,
+        "sensor": 33.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 407,
+      "risk": 47.97,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 60.8,
+        "sensor": 32.5,
+        "weather": 6.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 408,
+      "risk": 14.26,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 67.9,
+        "sensor": 29.3,
+        "weather": 2.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 409,
+      "risk": 13.05,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 59.2,
+        "sensor": 35.3,
+        "weather": 5.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 410,
+      "risk": 25.96,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 51.7,
+        "sensor": 43.9,
+        "weather": 4.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 411,
+      "risk": 41.25,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 53.8,
+        "sensor": 40.9,
+        "weather": 5.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 412,
+      "risk": 35.04,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 54.8,
+        "equipment": 45.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 413,
+      "risk": 11.75,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 62.3,
+        "equipment": 25.8,
+        "weather": 11.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 414,
+      "risk": 13.43,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 46.1,
+        "sensor": 43.7,
+        "weather": 10.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 415,
+      "risk": 11.68,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 47.9,
+        "equipment": 44.9,
+        "weather": 7.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 416,
+      "risk": 9.17,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 47.1,
+        "equipment": 36.5,
+        "weather": 16.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 417,
+      "risk": 7.5,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 90.9,
+        "equipment": 9.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 418,
+      "risk": 8.27,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 419,
+      "risk": 10.47,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 94.4,
+        "equipment": 5.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 420,
+      "risk": 11.39,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 421,
+      "risk": 11.72,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 90.8,
+        "equipment": 7.8,
+        "weather": 1.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 422,
+      "risk": 15.53,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 83.3,
+        "equipment": 13.9,
+        "weather": 2.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 423,
+      "risk": 16.01,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 95.3,
+        "weather": 4.6,
+        "equipment": 0.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 424,
+      "risk": 19.52,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 80.6,
+        "equipment": 14.4,
+        "weather": 5.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 425,
+      "risk": 18.98,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 426,
+      "risk": 14.96,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 427,
+      "risk": 25.51,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 84.9,
+        "weather": 10.8,
+        "equipment": 4.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 428,
+      "risk": 11.28,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 73.3,
+        "weather": 24.3,
+        "equipment": 2.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 429,
+      "risk": 16.63,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 52.3,
+        "weather": 31.0,
+        "equipment": 16.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 430,
+      "risk": 7.7,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 67.8,
+        "weather": 20.7,
+        "equipment": 11.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 431,
+      "risk": 11.93,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 76.2,
+        "equipment": 15.5,
+        "weather": 8.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 432,
+      "risk": 12.8,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 68.4,
+        "equipment": 31.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 433,
+      "risk": 17.11,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 55.0,
+        "equipment": 29.3,
+        "weather": 15.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 434,
+      "risk": 9.27,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 81.9,
+        "equipment": 18.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 435,
+      "risk": 10.36,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 64.8,
+        "equipment": 33.5,
+        "weather": 1.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 436,
+      "risk": 7.86,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 437,
+      "risk": 7.34,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 438,
+      "risk": 6.4,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 68.7,
+        "equipment": 18.5,
+        "weather": 12.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 439,
+      "risk": 10.37,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 72.2,
+        "weather": 19.7,
+        "equipment": 8.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 440,
+      "risk": 9.64,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 70.2,
+        "equipment": 18.2,
+        "weather": 11.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 441,
+      "risk": 9.46,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 442,
+      "risk": 10.44,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 62.1,
+        "equipment": 37.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 443,
+      "risk": 9.13,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 62.2,
+        "equipment": 37.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 444,
+      "risk": 14.1,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 98.9,
+        "equipment": 1.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 445,
+      "risk": 10.29,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 446,
+      "risk": 11.46,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 60.6,
+        "equipment": 39.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 447,
+      "risk": 9.82,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 73.9,
+        "equipment": 26.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 448,
+      "risk": 9.6,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 67.3,
+        "equipment": 23.7,
+        "weather": 9.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 449,
+      "risk": 9.66,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 60.7,
+        "sensor": 39.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 450,
+      "risk": 17.4,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 73.2,
+        "sensor": 26.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 451,
+      "risk": 23.93,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 63.5,
+        "sensor": 23.7,
+        "weather": 12.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 452,
+      "risk": 26.78,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 54.2,
+        "sensor": 34.5,
+        "weather": 11.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 453,
+      "risk": 40.46,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 54.2,
+        "sensor": 43.3,
+        "weather": 2.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 454,
+      "risk": 34.71,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 55.6,
+        "equipment": 40.3,
+        "weather": 4.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 455,
+      "risk": 34.42,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 57.9,
+        "equipment": 42.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 456,
+      "risk": 54.14,
+      "confidence": 0.255,
+      "contributors": {
+        "sensor": 55.7,
+        "equipment": 40.5,
+        "weather": 3.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 457,
+      "risk": 37.1,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 56.8,
+        "equipment": 28.4,
+        "weather": 14.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 458,
+      "risk": 36.86,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 62.9,
+        "equipment": 25.4,
+        "weather": 11.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 459,
+      "risk": 28.84,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 67.8,
+        "equipment": 22.3,
+        "weather": 9.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 460,
+      "risk": 28.21,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 54.8,
+        "equipment": 36.1,
+        "weather": 9.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 461,
+      "risk": 15.64,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 94.9,
+        "equipment": 5.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 462,
+      "risk": 10.07,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 79.7,
+        "equipment": 12.1,
+        "weather": 8.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 463,
+      "risk": 7.87,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 78.3,
+        "equipment": 21.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 464,
+      "risk": 7.54,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 55.1,
+        "equipment": 44.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 465,
+      "risk": 9.49,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 52.6,
+        "weather": 27.0,
+        "equipment": 20.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 466,
+      "risk": 16.61,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 41.4,
+        "equipment": 32.8,
+        "weather": 25.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 467,
+      "risk": 21.46,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 45.6,
+        "equipment": 38.5,
+        "weather": 15.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 468,
+      "risk": 11.12,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 64.1,
+        "equipment": 35.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 469,
+      "risk": 16.0,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 97.0,
+        "equipment": 3.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 470,
+      "risk": 13.56,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 78.5,
+        "weather": 21.5,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 471,
+      "risk": 17.1,
+      "confidence": 0.167,
+      "contributors": {
+        "weather": 50.8,
+        "sensor": 49.2,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 472,
+      "risk": 12.22,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 58.8,
+        "weather": 41.2,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 473,
+      "risk": 9.66,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 65.6,
+        "weather": 34.4,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 474,
+      "risk": 11.12,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 99.3,
+        "weather": 0.7,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 475,
+      "risk": 26.14,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 70.6,
+        "equipment": 17.3,
+        "weather": 12.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 476,
+      "risk": 20.95,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 90.7,
+        "weather": 9.3,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 477,
+      "risk": 11.22,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 69.9,
+        "equipment": 30.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 478,
+      "risk": 11.44,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 67.1,
+        "equipment": 29.1,
+        "weather": 3.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 479,
+      "risk": 9.33,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 76.6,
+        "weather": 14.3,
+        "equipment": 9.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 480,
+      "risk": 10.45,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 481,
+      "risk": 19.28,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 99.7,
+        "maintenance": 0.3,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 482,
+      "risk": 15.84,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 98.7,
+        "maintenance": 1.3,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 483,
+      "risk": 9.6,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 97.0,
+        "maintenance": 3.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 484,
+      "risk": 24.13,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 81.3,
+        "equipment": 14.8,
+        "maintenance": 3.8,
+        "permit": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 485,
+      "risk": 22.62,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 62.9,
+        "equipment": 22.6,
+        "weather": 10.0,
+        "maintenance": 4.5,
+        "permit": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 486,
+      "risk": 22.81,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 88.2,
+        "maintenance": 6.8,
+        "equipment": 5.0,
+        "permit": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 487,
+      "risk": 23.32,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 91.0,
+        "maintenance": 9.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 488,
+      "risk": 35.23,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 87.8,
+        "maintenance": 9.9,
+        "weather": 2.2,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 489,
+      "risk": 40.43,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 83.8,
+        "maintenance": 8.9,
+        "equipment": 5.9,
+        "weather": 1.4,
+        "permit": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 490,
+      "risk": 62.14,
+      "confidence": 0.324,
+      "contributors": {
+        "sensor": 88.7,
+        "maintenance": 11.0,
+        "weather": 0.2,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 491,
+      "risk": 70.02,
+      "confidence": 0.37,
+      "contributors": {
+        "sensor": 76.5,
+        "maintenance": 11.3,
+        "equipment": 9.2,
+        "weather": 3.0,
+        "permit": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 492,
+      "risk": 68.9,
+      "confidence": 0.261,
+      "contributors": {
+        "sensor": 75.8,
+        "maintenance": 11.3,
+        "equipment": 11.1,
+        "weather": 1.9,
+        "permit": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 493,
+      "risk": 56.54,
+      "confidence": 0.113,
+      "contributors": {
+        "sensor": 84.6,
+        "maintenance": 13.7,
+        "weather": 1.7,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 494,
+      "risk": 53.85,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 85.8,
+        "maintenance": 14.2,
+        "weather": 0.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 495,
+      "risk": 74.16,
+      "confidence": 0.249,
+      "contributors": {
+        "sensor": 53.8,
+        "permit": 27.1,
+        "weather": 9.8,
+        "maintenance": 9.3,
+        "equipment": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 496,
+      "risk": 65.66,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 60.6,
+        "permit": 28.9,
+        "maintenance": 10.5,
+        "equipment": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 497,
+      "risk": 67.1,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 60.1,
+        "permit": 28.6,
+        "maintenance": 11.0,
+        "weather": 0.2,
+        "equipment": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 498,
+      "risk": 70.76,
+      "confidence": 0.197,
+      "contributors": {
+        "sensor": 60.6,
+        "permit": 28.2,
+        "maintenance": 11.3,
+        "equipment": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 499,
+      "risk": 82.87,
+      "confidence": 0.471,
+      "contributors": {
+        "sensor": 55.3,
+        "permit": 24.6,
+        "maintenance": 10.1,
+        "equipment": 5.8,
+        "weather": 4.1,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 500,
+      "risk": 79.33,
+      "confidence": 0.41,
+      "contributors": {
+        "sensor": 53.3,
+        "permit": 24.1,
+        "maintenance": 10.1,
+        "equipment": 7.9,
+        "weather": 4.8,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 501,
+      "risk": 72.22,
+      "confidence": 0.373,
+      "contributors": {
+        "sensor": 50.2,
+        "permit": 22.8,
+        "equipment": 11.7,
+        "maintenance": 9.6,
+        "weather": 5.7,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 502,
+      "risk": 74.93,
+      "confidence": 0.418,
+      "contributors": {
+        "sensor": 47.9,
+        "permit": 21.8,
+        "equipment": 21.1,
+        "maintenance": 9.2,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 503,
+      "risk": 70.49,
+      "confidence": 0.345,
+      "contributors": {
+        "sensor": 47.5,
+        "permit": 22.9,
+        "equipment": 18.2,
+        "maintenance": 9.6,
+        "weather": 1.8,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 504,
+      "risk": 76.04,
+      "confidence": 0.439,
+      "contributors": {
+        "sensor": 49.3,
+        "permit": 24.1,
+        "equipment": 16.5,
+        "maintenance": 10.1,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 505,
+      "risk": 81.89,
+      "confidence": 0.537,
+      "contributors": {
+        "sensor": 51.7,
+        "permit": 24.4,
+        "equipment": 11.5,
+        "maintenance": 10.3,
+        "weather": 2.1,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 506,
+      "risk": 79.64,
+      "confidence": 0.42,
+      "contributors": {
+        "sensor": 56.0,
+        "permit": 25.9,
+        "maintenance": 10.9,
+        "weather": 3.8,
+        "equipment": 3.3,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 507,
+      "risk": 61.51,
+      "confidence": 0.25,
+      "contributors": {
+        "sensor": 55.0,
+        "permit": 25.2,
+        "maintenance": 10.6,
+        "equipment": 5.2,
+        "weather": 4.1,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 508,
+      "risk": 65.02,
+      "confidence": 0.25,
+      "contributors": {
+        "sensor": 57.4,
+        "permit": 26.0,
+        "maintenance": 10.9,
+        "equipment": 5.7,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 509,
+      "risk": 62.8,
+      "confidence": 0.25,
+      "contributors": {
+        "sensor": 53.2,
+        "permit": 24.4,
+        "maintenance": 10.3,
+        "weather": 6.6,
+        "equipment": 5.5,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 510,
+      "risk": 60.08,
+      "confidence": 0.25,
+      "contributors": {
+        "sensor": 53.3,
+        "permit": 23.6,
+        "maintenance": 9.9,
+        "weather": 7.2,
+        "equipment": 6.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 511,
+      "risk": 64.62,
+      "confidence": 0.333,
+      "contributors": {
+        "sensor": 53.5,
+        "permit": 22.2,
+        "weather": 11.4,
+        "maintenance": 9.3,
+        "equipment": 3.5,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 512,
+      "risk": 65.26,
+      "confidence": 0.333,
+      "contributors": {
+        "sensor": 54.6,
+        "permit": 23.3,
+        "weather": 12.3,
+        "maintenance": 9.8,
+        "equipment": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 513,
+      "risk": 63.86,
+      "confidence": 0.333,
+      "contributors": {
+        "sensor": 55.4,
+        "permit": 23.3,
+        "weather": 11.4,
+        "maintenance": 9.8,
+        "equipment": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 514,
+      "risk": 55.1,
+      "confidence": 0.333,
+      "contributors": {
+        "sensor": 53.8,
+        "permit": 22.9,
+        "weather": 13.7,
+        "maintenance": 9.6,
+        "equipment": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 515,
+      "risk": 54.27,
+      "confidence": 0.333,
+      "contributors": {
+        "sensor": 55.0,
+        "permit": 23.1,
+        "weather": 12.3,
+        "maintenance": 9.7,
+        "equipment": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 516,
+      "risk": 59.03,
+      "confidence": 0.333,
+      "contributors": {
+        "sensor": 54.5,
+        "permit": 21.5,
+        "weather": 14.9,
+        "maintenance": 9.1,
+        "equipment": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 517,
+      "risk": 62.87,
+      "confidence": 0.333,
+      "contributors": {
+        "sensor": 54.9,
+        "permit": 21.8,
+        "weather": 14.1,
+        "maintenance": 9.2,
+        "equipment": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 518,
+      "risk": 55.6,
+      "confidence": 0.25,
+      "contributors": {
+        "sensor": 57.9,
+        "permit": 25.1,
+        "maintenance": 10.5,
+        "weather": 6.5,
+        "equipment": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 519,
+      "risk": 64.22,
+      "confidence": 0.25,
+      "contributors": {
+        "sensor": 60.9,
+        "permit": 25.4,
+        "maintenance": 10.7,
+        "weather": 3.0,
+        "equipment": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 520,
+      "risk": 62.07,
+      "confidence": 0.25,
+      "contributors": {
+        "sensor": 59.7,
+        "permit": 24.2,
+        "maintenance": 10.1,
+        "equipment": 4.7,
+        "weather": 1.3,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 521,
+      "risk": 50.7,
+      "confidence": 0.25,
+      "contributors": {
+        "sensor": 58.1,
+        "permit": 24.6,
+        "maintenance": 10.1,
+        "weather": 5.1,
+        "equipment": 2.2,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 522,
+      "risk": 53.49,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 57.2,
+        "permit": 23.8,
+        "maintenance": 9.5,
+        "weather": 9.5,
+        "equipment": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 523,
+      "risk": 52.71,
+      "confidence": 0.25,
+      "contributors": {
+        "sensor": 50.7,
+        "permit": 22.8,
+        "weather": 10.8,
+        "maintenance": 8.8,
+        "equipment": 6.9,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 524,
+      "risk": 54.82,
+      "confidence": 0.25,
+      "contributors": {
+        "sensor": 49.4,
+        "permit": 23.5,
+        "equipment": 10.4,
+        "maintenance": 8.6,
+        "weather": 8.2,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 525,
+      "risk": 57.08,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 52.2,
+        "permit": 27.3,
+        "maintenance": 9.3,
+        "equipment": 8.1,
+        "weather": 3.2,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 526,
+      "risk": 74.42,
+      "confidence": 0.271,
+      "contributors": {
+        "sensor": 53.6,
+        "permit": 30.4,
+        "maintenance": 9.6,
+        "equipment": 6.5,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 527,
+      "risk": 75.4,
+      "confidence": 0.312,
+      "contributors": {
+        "sensor": 51.9,
+        "permit": 33.4,
+        "maintenance": 9.6,
+        "equipment": 5.1,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 528,
+      "risk": 76.46,
+      "confidence": 0.341,
+      "contributors": {
+        "sensor": 54.8,
+        "permit": 34.5,
+        "maintenance": 8.9,
+        "weather": 1.8,
+        "equipment": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 529,
+      "risk": 73.67,
+      "confidence": 0.305,
+      "contributors": {
+        "sensor": 45.5,
+        "permit": 35.5,
+        "equipment": 9.2,
+        "maintenance": 8.0,
+        "weather": 1.9,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 530,
+      "risk": 71.43,
+      "confidence": 0.28,
+      "contributors": {
+        "sensor": 44.9,
+        "permit": 36.5,
+        "equipment": 7.5,
+        "maintenance": 7.1,
+        "weather": 4.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 531,
+      "risk": 61.39,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 45.8,
+        "permit": 36.7,
+        "equipment": 6.6,
+        "maintenance": 6.0,
+        "weather": 4.9,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 532,
+      "risk": 53.76,
+      "confidence": 0.189,
+      "contributors": {
+        "permit": 50.4,
+        "sensor": 42.9,
+        "maintenance": 6.7,
+        "equipment": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 533,
+      "risk": 64.86,
+      "confidence": 0.313,
+      "contributors": {
+        "permit": 46.2,
+        "sensor": 37.7,
+        "weather": 7.7,
+        "maintenance": 4.9,
+        "equipment": 3.6,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 534,
+      "risk": 51.35,
+      "confidence": 0.167,
+      "contributors": {
+        "permit": 50.8,
+        "sensor": 35.9,
+        "weather": 9.3,
+        "maintenance": 4.0,
+        "equipment": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 535,
+      "risk": 31.43,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 92.6,
+        "maintenance": 7.4,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 536,
+      "risk": 31.86,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 61.4,
+        "weather": 23.8,
+        "equipment": 11.2,
+        "maintenance": 3.5,
+        "permit": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 537,
+      "risk": 30.13,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 62.3,
+        "weather": 34.4,
+        "maintenance": 2.3,
+        "equipment": 1.0,
+        "permit": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 538,
+      "risk": 29.09,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 58.0,
+        "weather": 40.9,
+        "maintenance": 1.1,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 539,
+      "risk": 27.28,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 50.8,
+        "weather": 48.9,
+        "maintenance": 0.4,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 540,
+      "risk": 29.47,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 53.5,
+        "weather": 46.5,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 541,
+      "risk": 26.4,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 71.6,
+        "weather": 28.4,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 542,
+      "risk": 26.23,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 59.3,
+        "sensor": 40.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 543,
+      "risk": 33.92,
+      "confidence": 0.099,
+      "contributors": {
+        "sensor": 62.6,
+        "equipment": 37.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 544,
+      "risk": 28.81,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 53.7,
+        "sensor": 44.6,
+        "weather": 1.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 545,
+      "risk": 32.8,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 54.4,
+        "equipment": 45.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 546,
+      "risk": 24.21,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 44.8,
+        "equipment": 40.1,
+        "weather": 15.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 547,
+      "risk": 22.67,
+      "confidence": 0.0,
+      "contributors": {
+        "equipment": 63.5,
+        "weather": 22.5,
+        "sensor": 13.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 548,
+      "risk": 23.84,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 64.0,
+        "sensor": 36.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 549,
+      "risk": 19.01,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 55.3,
+        "sensor": 44.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 550,
+      "risk": 10.42,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 50.3,
+        "equipment": 43.8,
+        "weather": 6.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 551,
+      "risk": 8.38,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 65.0,
+        "equipment": 35.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 552,
+      "risk": 10.6,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 53.8,
+        "sensor": 26.1,
+        "weather": 20.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 553,
+      "risk": 11.1,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 42.7,
+        "weather": 34.8,
+        "equipment": 22.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 554,
+      "risk": 7.19,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 53.2,
+        "sensor": 31.2,
+        "equipment": 15.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 555,
+      "risk": 9.17,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 38.7,
+        "weather": 37.7,
+        "sensor": 23.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 556,
+      "risk": 5.37,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 40.7,
+        "equipment": 40.4,
+        "weather": 18.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 557,
+      "risk": 5.43,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 61.5,
+        "sensor": 38.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 558,
+      "risk": 7.43,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 61.6,
+        "sensor": 38.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 559,
+      "risk": 12.46,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 54.0,
+        "sensor": 32.9,
+        "weather": 13.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 560,
+      "risk": 8.25,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 51.7,
+        "sensor": 24.7,
+        "weather": 23.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 561,
+      "risk": 9.41,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 53.0,
+        "sensor": 35.0,
+        "weather": 12.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 562,
+      "risk": 7.64,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 52.7,
+        "weather": 27.1,
+        "sensor": 20.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 563,
+      "risk": 7.32,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 38.9,
+        "sensor": 32.2,
+        "equipment": 28.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 564,
+      "risk": 5.2,
+      "confidence": 0.0,
+      "contributors": {
+        "equipment": 39.9,
+        "sensor": 35.7,
+        "weather": 24.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 565,
+      "risk": 4.62,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 47.8,
+        "sensor": 43.9,
+        "equipment": 8.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 566,
+      "risk": 6.96,
+      "confidence": 0.0,
+      "contributors": {
+        "equipment": 38.3,
+        "weather": 34.3,
+        "sensor": 27.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 567,
+      "risk": 7.72,
+      "confidence": 0.0,
+      "contributors": {
+        "equipment": 73.5,
+        "sensor": 26.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 568,
+      "risk": 6.12,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 60.4,
+        "equipment": 39.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 569,
+      "risk": 5.26,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 50.7,
+        "equipment": 49.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 570,
+      "risk": 6.19,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 571,
+      "risk": 5.56,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 57.5,
+        "equipment": 42.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 572,
+      "risk": 4.93,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 74.9,
+        "weather": 25.1,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 573,
+      "risk": 8.43,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 53.0,
+        "sensor": 47.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 574,
+      "risk": 9.58,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 62.9,
+        "weather": 37.1,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 575,
+      "risk": 7.66,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 64.6,
+        "weather": 35.4,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 576,
+      "risk": 6.26,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 577,
+      "risk": 3.83,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 578,
+      "risk": 5.78,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 579,
+      "risk": 8.34,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 580,
+      "risk": 8.05,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 54.1,
+        "sensor": 45.9,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 581,
+      "risk": 12.92,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 59.7,
+        "weather": 40.3,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 582,
+      "risk": 10.97,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 58.2,
+        "weather": 41.8,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 583,
+      "risk": 15.99,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 100.0,
+        "sensor": 0.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 584,
+      "risk": 11.51,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 585,
+      "risk": 10.8,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 586,
+      "risk": 12.76,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 587,
+      "risk": 13.04,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 588,
+      "risk": 10.53,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 589,
+      "risk": 11.71,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 92.5,
+        "weather": 7.5,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 590,
+      "risk": 11.77,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 58.6,
+        "weather": 41.4,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 591,
+      "risk": 6.38,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 83.6,
+        "weather": 16.4,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 592,
+      "risk": 4.68,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 593,
+      "risk": 5.17,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 67.9,
+        "sensor": 18.9,
+        "equipment": 13.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 594,
+      "risk": 6.81,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 63.9,
+        "equipment": 36.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 595,
+      "risk": 6.29,
+      "confidence": 0.0,
+      "contributors": {
+        "equipment": 66.6,
+        "sensor": 33.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 596,
+      "risk": 10.3,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 47.5,
+        "weather": 40.9,
+        "sensor": 11.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 597,
+      "risk": 9.51,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 36.6,
+        "equipment": 36.2,
+        "sensor": 27.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 598,
+      "risk": 10.26,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 43.8,
+        "weather": 38.1,
+        "equipment": 18.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 599,
+      "risk": 9.53,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 53.1,
+        "equipment": 46.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 600,
+      "risk": 17.45,
+      "confidence": 0.0,
+      "contributors": {
+        "equipment": 58.3,
+        "sensor": 41.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 601,
+      "risk": 23.66,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 86.0,
+        "equipment": 14.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 602,
+      "risk": 16.54,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 93.6,
+        "equipment": 6.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 603,
+      "risk": 11.54,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 59.2,
+        "sensor": 40.2,
+        "weather": 0.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 604,
+      "risk": 9.95,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 60.9,
+        "weather": 31.7,
+        "sensor": 7.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 605,
+      "risk": 7.1,
+      "confidence": 0.0,
+      "contributors": {
+        "equipment": 64.9,
+        "sensor": 35.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 606,
+      "risk": 9.81,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 81.4,
+        "sensor": 18.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 607,
+      "risk": 5.66,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 70.0,
+        "sensor": 30.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 608,
+      "risk": 5.43,
+      "confidence": 0.0,
+      "contributors": {
+        "equipment": 74.7,
+        "sensor": 25.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 609,
+      "risk": 4.85,
+      "confidence": 0.0,
+      "contributors": {
+        "equipment": 63.1,
+        "sensor": 36.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 610,
+      "risk": 9.78,
+      "confidence": 0.0,
+      "contributors": {
+        "equipment": 53.0,
+        "sensor": 47.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 611,
+      "risk": 9.96,
+      "confidence": 0.0,
+      "contributors": {
+        "equipment": 58.8,
+        "sensor": 41.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 612,
+      "risk": 7.87,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 74.2,
+        "sensor": 25.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 613,
+      "risk": 16.86,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 74.8,
+        "equipment": 25.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 614,
+      "risk": 12.0,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 79.2,
+        "equipment": 20.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 615,
+      "risk": 16.95,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 61.2,
+        "sensor": 38.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 616,
+      "risk": 12.85,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 68.9,
+        "sensor": 31.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 617,
+      "risk": 15.15,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 62.4,
+        "weather": 24.9,
+        "sensor": 12.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 618,
+      "risk": 13.19,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 66.3,
+        "sensor": 25.8,
+        "weather": 7.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 619,
+      "risk": 8.45,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 42.9,
+        "equipment": 38.9,
+        "sensor": 18.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 620,
+      "risk": 9.19,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 41.3,
+        "equipment": 33.5,
+        "weather": 25.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 621,
+      "risk": 5.34,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 58.6,
+        "sensor": 41.4,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 622,
+      "risk": 8.98,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 71.7,
+        "weather": 28.3,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 623,
+      "risk": 5.94,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 67.2,
+        "sensor": 32.8,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 624,
+      "risk": 5.66,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 64.2,
+        "sensor": 35.8,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 625,
+      "risk": 4.47,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 626,
+      "risk": 6.26,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 627,
+      "risk": 6.24,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 628,
+      "risk": 5.26,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 629,
+      "risk": 6.81,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 630,
+      "risk": 6.52,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 631,
+      "risk": 7.36,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 632,
+      "risk": 8.29,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 633,
+      "risk": 10.03,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 87.0,
+        "sensor": 13.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 634,
+      "risk": 5.37,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 635,
+      "risk": 5.28,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 636,
+      "risk": 4.77,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 637,
+      "risk": 9.42,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 97.4,
+        "sensor": 2.6,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 638,
+      "risk": 12.53,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 639,
+      "risk": 9.5,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 100.0,
+        "sensor": 0.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 640,
+      "risk": 10.69,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 100.0,
+        "sensor": 0.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 641,
+      "risk": 6.01,
+      "confidence": 0.0,
+      "contributors": {
+        "equipment": 73.5,
+        "weather": 19.3,
+        "sensor": 7.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 642,
+      "risk": 7.66,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 74.9,
+        "equipment": 25.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 643,
+      "risk": 6.43,
+      "confidence": 0.0,
+      "contributors": {
+        "equipment": 72.0,
+        "weather": 28.0,
+        "sensor": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 644,
+      "risk": 5.05,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 56.3,
+        "sensor": 39.9,
+        "equipment": 3.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 645,
+      "risk": 5.6,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 69.2,
+        "weather": 30.8,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 646,
+      "risk": 7.05,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 53.0,
+        "weather": 47.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 647,
+      "risk": 8.72,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 83.7,
+        "sensor": 16.3,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 648,
+      "risk": 8.95,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 95.6,
+        "sensor": 4.4,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 649,
+      "risk": 8.07,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 67.7,
+        "sensor": 30.6,
+        "equipment": 1.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 650,
+      "risk": 8.72,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 58.2,
+        "sensor": 41.8,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 651,
+      "risk": 11.9,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 65.1,
+        "sensor": 34.9,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 652,
+      "risk": 10.87,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 63.5,
+        "weather": 36.5,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 653,
+      "risk": 27.33,
+      "confidence": 0.167,
+      "contributors": {
+        "weather": 57.4,
+        "sensor": 28.4,
+        "equipment": 14.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 654,
+      "risk": 17.74,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 61.8,
+        "sensor": 29.9,
+        "equipment": 8.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 655,
+      "risk": 24.76,
+      "confidence": 0.167,
+      "contributors": {
+        "weather": 51.4,
+        "sensor": 33.8,
+        "equipment": 14.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 656,
+      "risk": 25.26,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 42.0,
+        "weather": 38.1,
+        "equipment": 19.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 657,
+      "risk": 9.35,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 35.9,
+        "sensor": 34.8,
+        "equipment": 29.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 658,
+      "risk": 8.03,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 53.8,
+        "sensor": 46.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 659,
+      "risk": 7.63,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 43.4,
+        "weather": 32.5,
+        "equipment": 24.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 660,
+      "risk": 8.36,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 68.4,
+        "sensor": 31.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 661,
+      "risk": 13.58,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 91.2,
+        "sensor": 8.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 662,
+      "risk": 16.33,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 80.0,
+        "weather": 20.0,
+        "sensor": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 663,
+      "risk": 12.07,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 95.3,
+        "sensor": 4.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 664,
+      "risk": 19.21,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 90.7,
+        "weather": 8.3,
+        "sensor": 1.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 665,
+      "risk": 16.12,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 100.0,
+        "sensor": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 666,
+      "risk": 21.36,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 68.4,
+        "sensor": 31.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 667,
+      "risk": 29.22,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 91.4,
+        "sensor": 8.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 668,
+      "risk": 11.88,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 100.0,
+        "sensor": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 669,
+      "risk": 34.5,
+      "confidence": 0.118,
+      "contributors": {
+        "equipment": 95.4,
+        "sensor": 4.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 670,
+      "risk": 39.21,
+      "confidence": 0.099,
+      "contributors": {
+        "equipment": 46.5,
+        "weather": 37.8,
+        "sensor": 15.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 671,
+      "risk": 27.6,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 53.1,
+        "weather": 46.9,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 672,
+      "risk": 26.92,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 56.4,
+        "weather": 43.6,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 673,
+      "risk": 42.97,
+      "confidence": 0.237,
+      "contributors": {
+        "weather": 54.1,
+        "sensor": 45.9,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 674,
+      "risk": 26.6,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 57.1,
+        "weather": 24.9,
+        "equipment": 18.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 675,
+      "risk": 9.13,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 62.0,
+        "equipment": 38.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 676,
+      "risk": 7.44,
+      "confidence": 0.0,
+      "contributors": {
+        "equipment": 52.7,
+        "sensor": 47.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 677,
+      "risk": 6.33,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 51.1,
+        "equipment": 48.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 678,
+      "risk": 6.3,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 67.8,
+        "equipment": 32.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 679,
+      "risk": 9.66,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 59.2,
+        "weather": 25.5,
+        "equipment": 15.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 680,
+      "risk": 19.07,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 48.4,
+        "equipment": 28.4,
+        "weather": 23.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 681,
+      "risk": 12.81,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 40.7,
+        "equipment": 31.3,
+        "weather": 28.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 682,
+      "risk": 16.67,
+      "confidence": 0.167,
+      "contributors": {
+        "equipment": 48.8,
+        "weather": 36.7,
+        "sensor": 14.5,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 683,
+      "risk": 7.51,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 47.1,
+        "sensor": 41.5,
+        "equipment": 11.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 684,
+      "risk": 10.69,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 38.3,
+        "equipment": 35.9,
+        "weather": 25.9,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 685,
+      "risk": 23.47,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 54.7,
+        "equipment": 24.6,
+        "sensor": 20.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 686,
+      "risk": 56.46,
+      "confidence": 0.192,
+      "contributors": {
+        "weather": 46.8,
+        "sensor": 35.5,
+        "equipment": 17.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 687,
+      "risk": 39.22,
+      "confidence": 0.25,
+      "contributors": {
+        "weather": 37.6,
+        "equipment": 33.3,
+        "sensor": 29.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 688,
+      "risk": 37.54,
+      "confidence": 0.25,
+      "contributors": {
+        "weather": 39.0,
+        "equipment": 34.7,
+        "sensor": 26.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 689,
+      "risk": 37.12,
+      "confidence": 0.25,
+      "contributors": {
+        "sensor": 37.2,
+        "equipment": 35.8,
+        "weather": 27.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 690,
+      "risk": 13.25,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 58.3,
+        "equipment": 41.7,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 691,
+      "risk": 34.13,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 64.1,
+        "weather": 18.6,
+        "equipment": 17.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 692,
+      "risk": 25.21,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 45.3,
+        "weather": 44.5,
+        "equipment": 10.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 693,
+      "risk": 8.95,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 76.6,
+        "equipment": 23.4,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 694,
+      "risk": 6.11,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 695,
+      "risk": 9.0,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 696,
+      "risk": 14.21,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 45.5,
+        "sensor": 36.4,
+        "equipment": 18.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 697,
+      "risk": 27.37,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 52.8,
+        "weather": 47.2,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 698,
+      "risk": 22.7,
+      "confidence": 0.167,
+      "contributors": {
+        "weather": 57.9,
+        "sensor": 35.5,
+        "equipment": 6.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 699,
+      "risk": 27.68,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 81.5,
+        "weather": 18.5,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 700,
+      "risk": 25.54,
+      "confidence": 0.083,
+      "contributors": {
+        "sensor": 53.1,
+        "weather": 40.3,
+        "equipment": 6.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 701,
+      "risk": 11.5,
+      "confidence": 0.0,
+      "contributors": {
+        "sensor": 100.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 702,
+      "risk": 38.82,
+      "confidence": 0.147,
+      "contributors": {
+        "sensor": 94.5,
+        "weather": 5.5,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 703,
+      "risk": 31.17,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 65.8,
+        "weather": 34.2,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 704,
+      "risk": 17.44,
+      "confidence": 0.167,
+      "contributors": {
+        "sensor": 50.4,
+        "weather": 49.6,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 705,
+      "risk": 38.95,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 85.6,
+        "sensor": 14.4,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 706,
+      "risk": 41.02,
+      "confidence": 0.188,
+      "contributors": {
+        "weather": 100.0,
+        "sensor": 0.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 707,
+      "risk": 19.15,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 60.9,
+        "sensor": 22.8,
+        "equipment": 16.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 708,
+      "risk": 11.44,
+      "confidence": 0.0,
+      "contributors": {
+        "weather": 37.4,
+        "equipment": 36.3,
+        "sensor": 26.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 709,
+      "risk": 29.63,
+      "confidence": 0.167,
+      "contributors": {
+        "weather": 48.1,
+        "equipment": 39.7,
+        "sensor": 12.2,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 710,
+      "risk": 12.92,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 51.5,
+        "weather": 24.9,
+        "sensor": 23.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 711,
+      "risk": 13.86,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 59.2,
+        "sensor": 40.8,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 712,
+      "risk": 16.86,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 79.9,
+        "sensor": 20.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 713,
+      "risk": 26.53,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 100.0,
+        "sensor": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 714,
+      "risk": 18.47,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 93.7,
+        "sensor": 6.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 715,
+      "risk": 24.48,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 56.7,
+        "sensor": 24.0,
+        "weather": 19.3,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 716,
+      "risk": 23.38,
+      "confidence": 0.083,
+      "contributors": {
+        "equipment": 62.9,
+        "sensor": 37.1,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0,
+        "weather": 0.0
+      }
+    },
+    {
+      "idx": 717,
+      "risk": 33.12,
+      "confidence": 0.013,
+      "contributors": {
+        "weather": 45.6,
+        "equipment": 38.9,
+        "sensor": 15.6,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 718,
+      "risk": 52.28,
+      "confidence": 0.348,
+      "contributors": {
+        "weather": 74.0,
+        "sensor": 26.0,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    },
+    {
+      "idx": 719,
+      "risk": 34.47,
+      "confidence": 0.083,
+      "contributors": {
+        "weather": 92.3,
+        "sensor": 7.7,
+        "equipment": 0.0,
+        "permit": 0.0,
+        "maintenance": 0.0,
+        "worker": 0.0
+      }
+    }
+  ]
+}

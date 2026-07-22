@@ -58,6 +58,15 @@ def get_normal_stats() -> dict:
             "mean": float(combined[channel].mean()),
             "std": float(combined[channel].std()),
         }
+
+    # Wind has a genuine, deliberate diurnal cycle (calmer at night) — a
+    # single flat-average reference would make every night look
+    # anomalously calm even when nothing is wrong. Hour-of-day buckets let
+    # weather_agent compare like against like.
+    hours = pd.to_datetime(combined["timestamp"]).dt.hour
+    hourly_wind = combined.groupby(hours)["wind_speed_kmh"].mean()
+    stats["wind_speed_kmh_by_hour"] = {int(h): float(v) for h, v in hourly_wind.items()}
+
     return stats
 
 

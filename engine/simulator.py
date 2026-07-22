@@ -67,6 +67,12 @@ GAS_LEAK_WINDOW = (60, 120)          # 02:00 - 04:00, night, low staffing
 BEARING_FAILURE_WINDOW = (270, 390)  # 09:00 - 13:00, day shift, gradual trend
 OVERPRESSURE_WINDOW = (480, 540)     # 16:00 - 18:00, afternoon heat load
 
+# Each worker's default zone when nothing anomalous is happening — the
+# single source of truth build_plant() uses to place them, and export.py
+# reuses to reconstruct a per-timestep worker position timeline without
+# re-deriving it from the (already-mutated) final Plant state.
+WORKER_HOME_ZONES = {"W-01": "Z2", "W-02": "Z3", "W-03": "Z2", "W-04": "Z3", "W-05": "Z3"}
+
 
 # ---------------------------------------------------------------------------
 # Plant layout
@@ -116,10 +122,9 @@ def build_plant(rng: np.random.Generator) -> Plant:
 
     shifts = [WorkerShift.DAY, WorkerShift.DAY, WorkerShift.DAY, WorkerShift.EVENING, WorkerShift.NIGHT]
     roles = ["Process Operator", "Process Operator", "Field Technician", "Field Technician", "Shift Supervisor"]
-    home_zones = ["Z2", "Z3", "Z2", "Z3", "Z3"]
     for i in range(5):
         wid = f"W-{i + 1:02d}"
-        zid = home_zones[i]
+        zid = WORKER_HOME_ZONES[wid]
         zone = plant.zones[zid]
         loc = Point((zone.bounds[0] + zone.bounds[2]) / 2, (zone.bounds[1] + zone.bounds[3]) / 2)
         plant.workers[wid] = Worker(
@@ -259,8 +264,15 @@ def _simulate_baseline(rng: np.random.Generator) -> pd.DataFrame:
 
     wind_direction = np.cumsum(rng.normal(0, 4.0, n)) % 360.0
 
-    # Gentle natural wear over the day; archetype 2 adds a much sharper drop.
-    compressor_health = 0.94 - np.cumsum(np.full(n, 0.02 / n))
+    # Gentle natural wear over the day, plus small measurement-noise jitter
+    # in the health-scoring estimate itself — a condition-monitoring score
+    # is never perfectly smooth, even when nothing is actually changing.
+    # Without this, the wear trend is deterministic (zero variance across
+    # calibration days), which makes it statistically indistinguishable
+    # from "the 99th percentile of normal" at every instant and defeats
+    # any agent trying to calibrate against normal variation. Archetype 2
+    # adds a much sharper, larger drop on top of this.
+    compressor_health = 0.94 - np.cumsum(np.full(n, 0.02 / n)) + _ar1_noise(rng, n, phi=0.85, scale=0.001)
 
     relief_capacity = np.full(n, 100.0)
 
@@ -343,6 +355,12 @@ def _inject_gas_leak_archetype(df: pd.DataFrame, plant: Plant, rng: np.random.Ge
         "end_time": _idx_time(end_idx),
         "ramp_steps": max(1, int((end_idx - start_idx) * ramp_frac)),
         "affected_channels": ["gas_ppm", "pressure_bar", "wind_speed_kmh", "workers_in_tank_farm"],
+        "worker_intrusion": {
+            "worker_id": "W-05",
+            "start_idx": int(worker_start),
+            "end_idx": int(worker_end),
+            "zone_id": "Z1",
+        },
         "narrative": (
             "Gas concentration near TANK-01 climbs gradually while wind speed "
             "collapses to near-calm, killing natural dispersion. Neither reading "

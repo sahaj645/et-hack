@@ -59,7 +59,7 @@ WORKER_MAX_HEADCOUNT = 3.0  # documented domain constant: max scripted day-shift
 
 MODEL_WEIGHT = 0.6
 AGENT_WEIGHT = 0.4
-AGENT_AGREEMENT_THRESHOLD = 0.3
+AGENT_AGREEMENT_THRESHOLD = 0.4
 
 
 def _normalize_agent(name: str, raw: pd.Series, agent_calibration: dict) -> pd.Series:
@@ -77,8 +77,15 @@ def _agent_totals(df: pd.DataFrame, normal_stats: dict, agent_calibration: dict)
     return raws, normed
 
 
+AGENT_SCORE_STEEPNESS = 2.5  # same sigmoid steepness as HeroModel.calibrated_score, for a consistent scale
+
+
 @lru_cache(maxsize=1)
-def _agent_total_calibration_sorted() -> tuple:
+def _agent_total_calibration_stats() -> tuple:
+    """(median, 99th-percentile threshold) of the summed agent score across
+    the 30 quiet calibration days — the sigmoid anchor for the agent side
+    of the fused risk, mirroring HeroModel.calibrated_score.
+    """
     from calibration import get_agent_calibration, get_calibration_frames, get_normal_stats
 
     normal_stats = get_normal_stats()
@@ -87,13 +94,20 @@ def _agent_total_calibration_sorted() -> tuple:
     for f in get_calibration_frames():
         _raws, normed = _agent_totals(f, normal_stats, agent_cal)
         totals.append(pd.concat(normed.values(), axis=1).sum(axis=1).to_numpy())
-    return tuple(np.sort(np.concatenate(totals)))
+    combined = np.concatenate(totals)
+    return float(np.median(combined)), float(np.quantile(combined, 0.99))
 
 
-def _percentile(values: np.ndarray, sorted_reference) -> np.ndarray:
-    sorted_reference = np.asarray(sorted_reference)
-    ranks = np.searchsorted(sorted_reference, values, side="right")
-    return ranks / len(sorted_reference) * 100.0
+def _calibrated_score(values: np.ndarray, median: float, threshold: float, steepness: float = AGENT_SCORE_STEEPNESS) -> np.ndarray:
+    """Sigmoid anchored at `threshold` (-> 50) with `median` (-> ~a few
+    points) setting the natural scale — see HeroModel.calibrated_score for
+    the full rationale. Percentile RANK is uniform on in-distribution data
+    by construction, so it makes a bad "how anomalous is this" score; this
+    is anchored at the actual decision boundary instead.
+    """
+    spread = max(threshold - median, 1e-9)
+    z = (values - threshold) / spread
+    return 100.0 / (1.0 + np.exp(-steepness * z))
 
 
 def compute_risk_timeline(df: pd.DataFrame, hero_model=None) -> dict:
@@ -109,17 +123,18 @@ def compute_risk_timeline(df: pd.DataFrame, hero_model=None) -> dict:
 
     raws, normed = _agent_totals(df, normal_stats, agent_cal)
     agent_total = pd.concat(normed.values(), axis=1).sum(axis=1)
-    agent_percentile = _percentile(agent_total.to_numpy(), _agent_total_calibration_sorted())
+    agent_median, agent_threshold = _agent_total_calibration_stats()
+    agent_score = _calibrated_score(agent_total.to_numpy(), agent_median, agent_threshold)
 
     if hero_model is None:
         hero_model = build_and_fit_hero_model()
     X = build_feature_matrix(df, normal_stats)
     model_raw = hero_model.anomaly_score(X)
-    model_percentile = hero_model.percentile(model_raw)
+    model_score = hero_model.calibrated_score(model_raw)
 
-    risk = np.clip(MODEL_WEIGHT * model_percentile + AGENT_WEIGHT * agent_percentile, 0, 100)
+    risk = np.clip(MODEL_WEIGHT * model_score + AGENT_WEIGHT * agent_score, 0, 100)
 
-    model_margin = np.clip((model_percentile - 99.0) / 1.0, 0.0, 1.0)
+    model_margin = np.clip((model_score - 50.0) / 50.0, 0.0, 1.0)
     agreement = (
         pd.concat([(normed[name] > AGENT_AGREEMENT_THRESHOLD).astype(float) for name in AGENT_MODULES], axis=1)
         .sum(axis=1)
@@ -131,8 +146,8 @@ def compute_risk_timeline(df: pd.DataFrame, hero_model=None) -> dict:
     return {
         "risk": pd.Series(risk, index=df.index),
         "confidence": pd.Series(confidence, index=df.index),
-        "model_percentile": pd.Series(model_percentile, index=df.index),
-        "agent_percentile": pd.Series(agent_percentile, index=df.index),
+        "model_score": pd.Series(model_score, index=df.index),
+        "agent_score": pd.Series(agent_score, index=df.index),
         "agent_scores": normed,
         "agent_raw": raws,
     }
@@ -155,6 +170,7 @@ def get_hero_operating_threshold() -> float:
 
 
 EARLY_TRIGGER_MIN_AGENTS = 2  # of 6, each above AGENT_AGREEMENT_THRESHOLD, simultaneously
+EARLY_TRIGGER_SUSTAIN_STEPS = 5  # ~10 min: agreement must hold, not just blip once
 
 
 def alarm_series(df: pd.DataFrame, hero_model=None) -> pd.Series:
@@ -163,15 +179,20 @@ def alarm_series(df: pd.DataFrame, hero_model=None) -> pd.Series:
          threshold (the general-purpose multivariate detector), or
       2. at least EARLY_TRIGGER_MIN_AGENTS of the six agents independently
          report a meaningfully elevated score (> AGENT_AGREEMENT_THRESHOLD)
-         at the same instant, even if none of them individually looks
-         statistically extreme.
+         at the same instant, SUSTAINED for EARLY_TRIGGER_SUSTAIN_STEPS in a
+         row, even if none of them individually looks statistically extreme.
 
     Condition 2 is the literal product thesis, made explicit rather than
-    left for the blended score to discover implicitly: several
-    independent signals mildly agreeing is treated as real evidence, not
-    noise, which is exactly the case a single-channel system — however
-    statistically sophisticated — structurally cannot represent, since it
-    only ever has one signal to look at.
+    left for the blended score to discover implicitly: several independent
+    signals mildly agreeing is treated as real evidence, not noise, which
+    is exactly the case a single-channel system — however statistically
+    sophisticated — structurally cannot represent, since it only ever has
+    one signal to look at. The sustain requirement exists because, once
+    every agent has a real (non-degenerate) calibration reference, brief
+    coincidental co-elevation of two continuous, independently-noisy
+    signals happens often enough by chance alone to be a poor trigger on
+    its own — same logic a real alarm system uses "N consecutive readings"
+    debounce for, not just a raw instantaneous crossing.
     """
     result = compute_risk_timeline(df, hero_model=hero_model)
     threshold = get_hero_operating_threshold()
@@ -180,7 +201,13 @@ def alarm_series(df: pd.DataFrame, hero_model=None) -> pd.Series:
     agreement_count = pd.concat(
         [(s > AGENT_AGREEMENT_THRESHOLD).astype(int) for s in result["agent_scores"].values()], axis=1
     ).sum(axis=1)
-    cross_signal = agreement_count >= EARLY_TRIGGER_MIN_AGENTS
+    cross_signal_instant = agreement_count >= EARLY_TRIGGER_MIN_AGENTS
+    cross_signal = (
+        cross_signal_instant.rolling(EARLY_TRIGGER_SUSTAIN_STEPS, min_periods=EARLY_TRIGGER_SUSTAIN_STEPS)
+        .min()
+        .fillna(0)
+        .astype(bool)
+    )
 
     return primary | cross_signal
 
@@ -232,6 +259,6 @@ if __name__ == "__main__":
 
     print(f"\nConfidence: {result['confidence'].iloc[peak_idx]:.2f}")
     print(" ", explain_confidence(
-        np.clip((result["model_percentile"].iloc[peak_idx] - 99.0), 0, 1),
+        np.clip((result["model_score"].iloc[peak_idx] - 50.0) / 50.0, 0, 1),
         sum(1 for s in result["agent_scores"].values() if s.iloc[peak_idx] > AGENT_AGREEMENT_THRESHOLD) / 6,
     ))

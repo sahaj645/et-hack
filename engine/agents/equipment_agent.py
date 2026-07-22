@@ -1,9 +1,13 @@
 """Asset health & degradation.
 
-Reads COMP-01's health score and the short-window volatility of its
-vibration trace — the signature of accumulating mechanical wear (a health
-score that keeps sliding and doesn't recover) rather than a momentary
-sensor blip that a raw vibration reading alone wouldn't distinguish.
+Reads how fast COMP-01's health score is actively falling — the signature
+of accumulating mechanical wear while it's happening. Deliberately a rate,
+not the absolute deficit: real wear doesn't self-heal, so an absolute
+deficit stays elevated indefinitely once damage occurs, which would leave
+this agent (and the fused risk score downstream) reporting "elevated"
+for the rest of the day after a single past event even though nothing is
+actively getting worse anymore. A monitoring agent should flag new
+degradation, not keep re-flagging an old, stable, already-known condition.
 """
 
 from __future__ import annotations
@@ -18,15 +22,12 @@ for _p in (_ENGINE_DIR, _ENGINE_DIR / "engine", _ENGINE_DIR / "agents"):
 
 import pandas as pd
 
+DECLINE_WINDOW_STEPS = 30  # ~1 hour: "how much has health dropped recently"
+
 
 def raw_score(df: pd.DataFrame, normal_stats: dict | None = None) -> pd.Series:
-    health_deficit = (1.0 - df["compressor_health"]).clip(lower=0)
-    vibration_volatility = df["vibration_mms"].rolling(15, min_periods=1).std().fillna(0)
-    # Volatility amplifies the score rather than adding independently, so
-    # ambient vibration noise on an otherwise-healthy compressor can't
-    # spuriously dominate the score (and, downstream, the contributor
-    # breakdown) on days where COMP-01 isn't actually the story.
-    return health_deficit * (1.0 + vibration_volatility)
+    decline = (df["compressor_health"].shift(DECLINE_WINDOW_STEPS) - df["compressor_health"]).clip(lower=0)
+    return decline.fillna(0.0)
 
 
 def summarize(df: pd.DataFrame, series: pd.Series) -> dict:
@@ -39,8 +40,8 @@ def summarize(df: pd.DataFrame, series: pd.Series) -> dict:
         "peak_score": float(peak_val),
         "peak_time": df["timestamp"].iloc[peak_idx] if "timestamp" in df.columns else None,
         "summary": (
-            f"COMP-01 health score falls to {health_at_peak:.2f} with elevated "
-            f"vibration volatility around index {peak_idx} — wear, not noise."
+            f"COMP-01 health drops {peak_val:.2f} points within an hour around index "
+            f"{peak_idx}, reaching {health_at_peak:.2f} — active wear, not a stable reading."
         ),
     }
 

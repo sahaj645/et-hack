@@ -75,13 +75,34 @@ class HeroModel:
         """Percentile of each raw score relative to the calibration (normal)
         distribution: 50 = typical normal reading, 99 = as anomalous as the
         worst 1% of normal operation, 100+ territory = worse than anything
-        seen on a quiet day.
+        seen on a quiet day. Useful for diagnostics; NOT what the displayed
+        risk score uses (see calibrated_score) — percentile rank is by
+        definition uniformly distributed on in-distribution data, so a
+        score built from it is "moderately elevated" on perfectly ordinary
+        days about half the time, which is a bad property for a number a
+        human is meant to glance at and trust.
         """
         if self.calibration_scores_ is None:
             raise RuntimeError("HeroModel.fit() must run before percentile()")
         sorted_cal = np.sort(self.calibration_scores_)
         ranks = np.searchsorted(sorted_cal, raw_scores, side="right")
         return ranks / len(sorted_cal) * 100.0
+
+    def calibrated_score(self, raw_scores: np.ndarray, steepness: float = 2.5) -> np.ndarray:
+        """0-100 score anchored at the calibrated alert threshold via a
+        sigmoid: 50 = sitting exactly at the threshold, comfortably-normal
+        readings compress toward 0, readings well past the threshold
+        saturate toward 100. The "comfortable" scale is the calibration
+        median-to-threshold gap, so what counts as a big deviation is
+        defined by this signal's own normal variability, not an arbitrary
+        constant.
+        """
+        if self.calibration_scores_ is None or self.threshold_ is None:
+            raise RuntimeError("HeroModel.fit() must run before calibrated_score()")
+        median = float(np.median(self.calibration_scores_))
+        spread = max(self.threshold_ - median, 1e-9)
+        z = (raw_scores - self.threshold_) / spread
+        return 100.0 / (1.0 + np.exp(-steepness * z))
 
 
 def build_and_fit_hero_model() -> HeroModel:
@@ -112,8 +133,10 @@ if __name__ == "__main__":
     X = build_feature_matrix(scenario_df)
     raw = hero.anomaly_score(X)
     pct = hero.percentile(raw)
+    score = hero.calibrated_score(raw)
 
     for evt in events:
         window = slice(evt["start_idx"], evt["end_idx"] + 1)
         peak_pct = pct[window].max()
-        print(f"  {evt['id']:>24}: peak percentile = {peak_pct:5.1f}  (alert at 99.0)")
+        peak_score = score[window].max()
+        print(f"  {evt['id']:>24}: peak percentile = {peak_pct:5.1f}  peak calibrated_score = {peak_score:5.1f}  (alert at 50.0)")

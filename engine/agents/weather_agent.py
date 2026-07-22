@@ -23,8 +23,14 @@ def raw_score(df: pd.DataFrame, normal_stats: dict | None = None) -> pd.Series:
     if normal_stats is None:
         from calibration import get_normal_stats
         normal_stats = get_normal_stats()
-    reference_wind = normal_stats["wind_speed_kmh"]["mean"]
-    return (1.0 - df["wind_speed_kmh"] / max(reference_wind, 1e-6)).clip(lower=0)
+    # Compare against the expected wind for THIS hour of day, not a flat
+    # 24h average — wind has a genuine diurnal cycle (calmer at night by
+    # design), so a flat reference would flag every ordinary night as
+    # anomalously calm.
+    by_hour = normal_stats["wind_speed_kmh_by_hour"]
+    hours = pd.to_datetime(df["timestamp"]).dt.hour
+    reference_wind = hours.map(by_hour).astype(float)
+    return (1.0 - df["wind_speed_kmh"] / reference_wind.clip(lower=1e-6)).clip(lower=0)
 
 
 def summarize(df: pd.DataFrame, series: pd.Series) -> dict:
