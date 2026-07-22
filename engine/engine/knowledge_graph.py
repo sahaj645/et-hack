@@ -186,6 +186,7 @@ def compute_hazardous_path(graph: nx.DiGraph, event: dict, df: pd.DataFrame, pla
         "event_id": event["id"],
         "path_nodes": ordered_path,
         "sentence": sentence,
+        "clauses": clauses,
     }
 
 

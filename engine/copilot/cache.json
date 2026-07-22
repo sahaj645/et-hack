@@ -1,0 +1,90 @@
+[
+  {
+    "event_id": "evt-gas-leak-01",
+    "question": "Why is Tank Farm (Z1) unsafe right now?",
+    "answer": {
+      "cause": [
+        "Worker 05 enters Tank Farm (Z1) — Z1's standing entry permit P-01 is held by Worker 01, not Worker 05",
+        "TANK-01 shows Pressure falling, Gas Concentration rising",
+        "PIPE-01 shows Pressure falling",
+        "wind has dropped to near-calm, stalling dispersion"
+      ],
+      "recommendation": [
+        "Suspend all active permits in the affected zone immediately — no new hot or cold work may begin",
+        "Sound the zone evacuation alert and account for all personnel via muster point roll call"
+      ],
+      "sop_procedure_id": "SOP-GAS-01",
+      "sop_procedure_title": "Gas Leak / Toxic-Flammable Atmosphere Response",
+      "sop_steps": [
+        "Suspend all active permits in the affected zone immediately — no new hot or cold work may begin",
+        "Sound the zone evacuation alert and account for all personnel via muster point roll call",
+        "Do not permit zone re-entry without appropriate respiratory PPE",
+        "Isolate the suspected source (valve/line) from outside the zone if it can be done safely",
+        "Increase ventilation or activate emergency exhaust where available to restore dispersion",
+        "Confirm gas detector readings return to the safe band before authorizing re-entry",
+        "Log the incident and complete root-cause review before any permit in the zone is reissued"
+      ],
+      "sop_source": "OISD-STD-105 (Work Permit System) — permit suspension provisions; Factories Act 1948, Section 36 (Precautions against dangerous fumes, gases, etc.)",
+      "estimated_risk_reduction_pct": 7.1,
+      "peak_risk": 89.2,
+      "confidence": 0.49
+    }
+  },
+  {
+    "event_id": "evt-bearing-failure-01",
+    "question": "Why is Compressor House (Z2) unsafe right now?",
+    "answer": {
+      "cause": [
+        "COMP-01 shows Compressor Temperature rising, Vibration rising",
+        "MT-01 (Bearing inspection & lubrication) is overdue"
+      ],
+      "recommendation": [
+        "Cross-check the vibration and bearing-temperature trend against baseline to confirm this is a genuine trend, not a sensor fault",
+        "Reduce load or bring the equipment to a controlled shutdown if the trend continues to climb"
+      ],
+      "sop_procedure_id": "SOP-MECH-01",
+      "sop_procedure_title": "Rotating Equipment Vibration / Bearing Alarm Response",
+      "sop_steps": [
+        "Cross-check the vibration and bearing-temperature trend against baseline to confirm this is a genuine trend, not a sensor fault",
+        "Reduce load or bring the equipment to a controlled shutdown if the trend continues to climb",
+        "Escalate the overdue maintenance task to the planner for priority scheduling — do not defer it further",
+        "Perform a manual bearing and lubrication inspection before restart",
+        "Update the asset's maintenance record and shorten the inspection interval going forward"
+      ],
+      "sop_source": "OISD process safety management framework — mechanical integrity / predictive maintenance practice for rotating equipment",
+      "estimated_risk_reduction_pct": 77.4,
+      "peak_risk": 83.1,
+      "confidence": 0.47
+    }
+  },
+  {
+    "event_id": "evt-overpressure-01",
+    "question": "Why is Tank Farm (Z1) unsafe right now?",
+    "answer": {
+      "cause": [
+        "TANK-01 shows Pressure rising, Tank Temperature rising",
+        "VALVE-01 shows Relief Capacity falling",
+        "MT-02 (Relief valve function test) is in progress",
+        "a hot-work permit is active in the same restricted zone"
+      ],
+      "recommendation": [
+        "Immediately suspend the active hot-work permit and stop all spark- or flame-producing work",
+        "Remove hot-work equipment and other ignition sources from the zone"
+      ],
+      "sop_procedure_id": "SOP-HOTWORK-01",
+      "sop_procedure_title": "Hot Work Permit Suspension (Ignition Risk During Process Excursion)",
+      "sop_steps": [
+        "Immediately suspend the active hot-work permit and stop all spark- or flame-producing work",
+        "Remove hot-work equipment and other ignition sources from the zone",
+        "Verify fire watch personnel and extinguishing equipment are stationed before any resumption is considered",
+        "Do not reissue the permit until the pressure/temperature excursion is confirmed resolved and relief capacity is restored to 100%",
+        "Re-verify the gas-free / LEL certificate before hot work resumes",
+        "Document the near-miss and route the permit through the issuing authority for re-approval"
+      ],
+      "sop_source": "OISD-STD-105 (Work Permit System) — hot work permit provisions; Factories Act 1948, Section 38 (Precautions in case of fire)",
+      "estimated_risk_reduction_pct": 7.2,
+      "peak_risk": 82.9,
+      "confidence": 0.47
+    }
+  }
+]

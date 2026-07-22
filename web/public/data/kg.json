@@ -338,7 +338,13 @@
         "channel:pressure_bar@PIPE-01",
         "channel:wind_speed_kmh@Z1"
       ],
-      "sentence": "Worker 05 enters Tank Farm (Z1) — Z1's standing entry permit P-01 is held by Worker 01, not Worker 05; TANK-01 shows Pressure falling, Gas Concentration rising; PIPE-01 shows Pressure falling; wind has dropped to near-calm, stalling dispersion."
+      "sentence": "Worker 05 enters Tank Farm (Z1) — Z1's standing entry permit P-01 is held by Worker 01, not Worker 05; TANK-01 shows Pressure falling, Gas Concentration rising; PIPE-01 shows Pressure falling; wind has dropped to near-calm, stalling dispersion.",
+      "clauses": [
+        "Worker 05 enters Tank Farm (Z1) — Z1's standing entry permit P-01 is held by Worker 01, not Worker 05",
+        "TANK-01 shows Pressure falling, Gas Concentration rising",
+        "PIPE-01 shows Pressure falling",
+        "wind has dropped to near-calm, stalling dispersion"
+      ]
     },
     {
       "event_id": "evt-bearing-failure-01",
@@ -349,7 +355,11 @@
         "channel:vibration_mms@COMP-01",
         "task:MT-01"
       ],
-      "sentence": "COMP-01 shows Compressor Temperature rising, Vibration rising; MT-01 (Bearing inspection & lubrication) is overdue."
+      "sentence": "COMP-01 shows Compressor Temperature rising, Vibration rising; MT-01 (Bearing inspection & lubrication) is overdue.",
+      "clauses": [
+        "COMP-01 shows Compressor Temperature rising, Vibration rising",
+        "MT-01 (Bearing inspection & lubrication) is overdue"
+      ]
     },
     {
       "event_id": "evt-overpressure-01",
@@ -362,7 +372,13 @@
         "channel:relief_capacity_pct@VALVE-01",
         "task:MT-02"
       ],
-      "sentence": "TANK-01 shows Pressure rising, Tank Temperature rising; VALVE-01 shows Relief Capacity falling; MT-02 (Relief valve function test) is in progress; a hot-work permit is active in the same restricted zone."
+      "sentence": "TANK-01 shows Pressure rising, Tank Temperature rising; VALVE-01 shows Relief Capacity falling; MT-02 (Relief valve function test) is in progress; a hot-work permit is active in the same restricted zone.",
+      "clauses": [
+        "TANK-01 shows Pressure rising, Tank Temperature rising",
+        "VALVE-01 shows Relief Capacity falling",
+        "MT-02 (Relief valve function test) is in progress",
+        "a hot-work permit is active in the same restricted zone"
+      ]
     }
   ]
 }

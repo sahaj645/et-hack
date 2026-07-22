@@ -20,7 +20,7 @@ from datetime import datetime
 from pathlib import Path
 
 _ENGINE_DIR = Path(__file__).resolve().parent
-for _p in (_ENGINE_DIR, _ENGINE_DIR / "engine", _ENGINE_DIR / "agents"):
+for _p in (_ENGINE_DIR, _ENGINE_DIR / "engine", _ENGINE_DIR / "agents", _ENGINE_DIR / "copilot"):
     if str(_p) not in sys.path:
         sys.path.insert(0, str(_p))
 
@@ -30,6 +30,9 @@ REPO_ROOT = _ENGINE_DIR.parent
 OUTPUT_PATH = REPO_ROOT / "web" / "public" / "data" / "scenario.json"
 RISK_TIMELINE_OUTPUT_PATH = REPO_ROOT / "web" / "public" / "data" / "risk_timeline.json"
 KG_OUTPUT_PATH = REPO_ROOT / "web" / "public" / "data" / "kg.json"
+COPILOT_CACHE_OUTPUT_PATH = REPO_ROOT / "web" / "public" / "data" / "copilot_cache.json"
+COPILOT_CACHE_SOURCE_PATH = _ENGINE_DIR / "copilot" / "cache.json"
+REPORTS_OUTPUT_DIR = REPO_ROOT / "web" / "public" / "reports"
 METRICS_SOURCE_PATH = _ENGINE_DIR / "metrics" / "results.json"
 METRICS_OUTPUT_PATH = REPO_ROOT / "web" / "public" / "data" / "metrics.json"
 
@@ -142,6 +145,58 @@ def main() -> None:
     kg_size_kb = KG_OUTPUT_PATH.stat().st_size / 1024
     print(f"Wrote {KG_OUTPUT_PATH.relative_to(REPO_ROOT)} ({kg_size_kb:.1f} KB)")
     print(f"  nodes: {len(kg_payload['nodes'])}  edges: {len(kg_payload['edges'])}  paths: {len(kg_payload['paths'])}")
+
+    print("Building operations copilot cache...")
+    from templates import build_demo_cache
+    _cp_df, cp_plant, cp_events = generate_scenario(seed=SEED)
+    copilot_cache = build_demo_cache(_cp_df, cp_plant, cp_events, hero_model)
+    COPILOT_CACHE_SOURCE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with COPILOT_CACHE_SOURCE_PATH.open("w", encoding="utf-8") as f:
+        json.dump(copilot_cache, f, indent=2, ensure_ascii=False)
+    COPILOT_CACHE_OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with COPILOT_CACHE_OUTPUT_PATH.open("w", encoding="utf-8") as f:
+        json.dump(copilot_cache, f, indent=2, ensure_ascii=False)
+    print(f"Wrote {COPILOT_CACHE_SOURCE_PATH.relative_to(REPO_ROOT)} and {COPILOT_CACHE_OUTPUT_PATH.relative_to(REPO_ROOT)}")
+    print(f"  cached answers: {len(copilot_cache)}")
+
+    print("Generating PDF incident reports...")
+    import risk_agent
+    import sop_agent
+    from knowledge_graph import build_plant_graph, compute_hazardous_path
+    from report_agent import build_incident_report
+
+    _rp_df, rp_plant, rp_events = generate_scenario(seed=SEED)
+    rp_graph = build_plant_graph(rp_plant)
+    rp_risk_result = risk_agent.compute_risk_timeline(_rp_df, hero_model=hero_model)
+    rp_per_archetype = {}
+    if METRICS_SOURCE_PATH.exists():
+        rp_per_archetype = json.loads(METRICS_SOURCE_PATH.read_text(encoding="utf-8"))["detection"]["per_archetype"]
+
+    REPORTS_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    for event in rp_events:
+        rp_path = compute_hazardous_path(rp_graph, event, _rp_df, rp_plant)
+        rp_sop_rec = sop_agent.recommend(_rp_df, event, hero_model=hero_model)
+        rp_peak_idx = rp_sop_rec["peak_idx"]
+        rp_contributors = risk_agent.contributor_breakdown(rp_risk_result["agent_scores"], rp_peak_idx)
+
+        archetype_stats = rp_per_archetype.get(event["archetype"])
+        lead_stats = None
+        if archetype_stats and archetype_stats.get("hero"):
+            lead_stats = {"n_instances": archetype_stats["n_instances"], **archetype_stats["hero"]}
+
+        report_path = REPORTS_OUTPUT_DIR / f"{event['id']}.pdf"
+        build_incident_report(
+            report_path,
+            event,
+            rp_plant.name,
+            float(rp_risk_result["risk"].iloc[rp_peak_idx]),
+            float(rp_risk_result["confidence"].iloc[rp_peak_idx]),
+            rp_contributors,
+            rp_path["sentence"],
+            rp_sop_rec,
+            lead_stats,
+        )
+    print(f"Wrote {len(rp_events)} PDF reports to {REPORTS_OUTPUT_DIR.relative_to(REPO_ROOT)}")
 
     if METRICS_SOURCE_PATH.exists():
         METRICS_OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)

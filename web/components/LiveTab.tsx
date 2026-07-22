@@ -8,6 +8,7 @@ import Twin from "./Twin";
 import Heatmap from "./Heatmap";
 import ContributorBars from "./ContributorBars";
 import Confidence from "./Confidence";
+import Copilot from "./Copilot";
 
 function formatClock(ts: string | undefined): string {
   if (!ts) return "--:--";
@@ -112,11 +113,18 @@ export default function LiveTab({ player }: { player: ReturnType<typeof useDemoP
         />
       </div>
 
-      <div className="rounded-lg border border-[#232a38] bg-[#10141c] p-3">
-        <div className="mb-1 font-mono-readout text-[10px] uppercase tracking-widest text-slate-500">
-          Live Sensor Traces
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
+        <div className="rounded-lg border border-[#232a38] bg-[#10141c] p-3">
+          <div className="mb-1 font-mono-readout text-[10px] uppercase tracking-widest text-slate-500">
+            Live Sensor Traces
+          </div>
+          <Traces timeline={scenario.timeline} channelSpecs={scenario.meta.channel_specs} index={index} />
         </div>
-        <Traces timeline={scenario.timeline} channelSpecs={scenario.meta.channel_specs} index={index} />
+
+        <Copilot
+          activeEventId={activeEvent?.id ?? null}
+          eventTitles={Object.fromEntries(scenario.events.map((e) => [e.id, e.title]))}
+        />
       </div>
 
       <div className="h-1 w-full overflow-hidden rounded-full bg-[#1a202c]">
